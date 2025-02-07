@@ -1,9 +1,15 @@
 #root {
   margin: auto auto;
   padding: 2rem;
+  background-color: black;
 }
 
-p{
+body {
+  background-color: black;
+  color: white;
+}
+
+p {
   font-size: 1vw;
   margin-top: 0;
   margin-bottom: 0;
@@ -11,56 +17,54 @@ p{
 }
 
 /*HEADER*/
-.header-container{
+.header-container {
   text-align: center;
   padding-bottom: 6vh;
 }
 
-.header{
+.header {
   font-size: 8vw;
 }
 
-.subheader{
-  font-size: 2.5vw;  
+.subheader {
+  font-size: 2.5vw;
 }
 
-.subsubheader{
+.subsubheader {
   font-size: 2vw;
 }
 
 /*DESCRIPTION*/
-.description-container{
+.description-container {
   text-align: left;
   padding-bottom: 3vh;
   margin-left: 10vw;
   margin-right: 10vw;
-  
 }
 
-.description{
+.description {
   font-size: 2vw;
   line-height: 4vh;
 }
 
-.subdescription-container{
+.subdescription-container {
   text-align: center;
   padding-top: 10vh;
   padding-bottom: 10vh;
   margin-left: 10vw;
   margin-right: 10vw;
-  
 }
 
-.subdescription{
+.subdescription {
   font-size: 1.8vw;
   line-height: 4vh;
 }
 
-.flag-container{
+.flag-container {
   text-align: center;
   padding-top: 6vh;
 }
 
-.flag{
+.flag {
   width: 50%;
 }
