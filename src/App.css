@@ -1,12 +1,19 @@
 #root {
-  margin: auto auto;
-  padding: 2rem;
-  background-color: black;
+  background-color: white;
+  display: flex;
+}
+
+.root {
+  width: 85vw;
+}
+
+.root-before {
+  width: 100vw;
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 p {
@@ -17,17 +24,41 @@ p {
 }
 
 /*HEADER*/
+
 .header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding-bottom: 6vh;
+  height: 100vh;
+  transition: all 500ms;
+}
+
+.title-container {
+  text-align: center;
+  padding-bottom: 6vh;
+  height: auto;
+}
+
+.subheader-container {
+  text-align: center;
+  padding-bottom: 6vh;
+  transition: all 500ms;
 }
 
 .header {
-  font-size: 8vw;
+  font-size: 3vw;
+}
+
+.header-logo img {
+  width: 30vw;
+  height: auto;
 }
 
 .subheader {
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 .subsubheader {
@@ -36,6 +67,7 @@ p {
 
 /*DESCRIPTION*/
 .description-container {
+  display: flex;
   text-align: left;
   padding-bottom: 3vh;
   margin-left: 10vw;
@@ -67,4 +99,39 @@ p {
 
 .flag {
   width: 50%;
+}
+
+.posters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 15%;
+}
+
+.poster-container {
+  transition: all 500ms;
+}
+
+.poster {
+  width: 100%;
+}
+
+.progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  background: rgb(206, 70, 66);
+  z-index: 100;
+}
+
+.hello {
+  opacity: 1;
+}
+
+.goodbye {
+  opacity: 0;
 }
