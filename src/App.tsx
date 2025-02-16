@@ -1,27 +1,33 @@
 import './App.css';
 import flag from './assets/SYMFlag.png';
+import logo from './assets/LionLogo.png';
 
 function App() {
   return (
     <>
       <div className="header-container">
-        <p className="header">
-          <b>
-            <i>(H)</i>EGEMONY
-          </b>
-        </p>
-        <p className="subheader">
-          - Culture’s Dominatrix -
-          <br />
-          <br />
-          <i>London’s Lost.</i>
-          <br /> Isda City of Duppies
-          <br />
-          Da Rule of Mammon
-          <br />
-          Da Praise of Pagans
-          <br />
-          <br />
+        <div>
+          <p className="header">
+            <b>
+              <i>(H)</i>EGEMONY
+            </b>
+          </p>
+          <p className="subheader">- Culture’s Dominatrix -</p>
+          <div className="header-logo">
+            <img src={logo} alt="Logo"></img>
+          </div>
+          <p className="subheader">
+            <i>London’s Lost.</i>
+            <br /> Isda City of Duppies
+            <br />
+            Da Rule of Mammon
+            <br />
+            Da Praise of Pagans
+          </p>
+        </div>
+      </div>
+      <div className="subheader-container">
+        <p className="subsubheader">
           But, we
           <br />
           <i>Working Class London, Got Suttn to Say:</i>
@@ -29,8 +35,6 @@ function App() {
           <br />
           <b>Rise like Lions after slumber</b>
           <br />
-        </p>
-        <p className="subsubheader">
           In unvanquishable number—
           <br />
           Shake your chains to earth like dew
@@ -87,7 +91,7 @@ function App() {
           can find in places like Paris, New York or Amsterdam.
         </p>
       </div>
-      <div className="header-container">
+      <div className="title-container">
         <p className="subheader">
           <i>
             <b>Shouldn’t bea crime to be poor in London</b>
@@ -137,7 +141,7 @@ function App() {
           can find in places like Paris, New York or Amsterdam.
         </p>
       </div>
-      <div className="header-container">
+      <div className="title-container">
         <p className="subheader">
           <i>
             <b>‘this is aint for the culture its for the connoisseur’</b>
@@ -187,7 +191,7 @@ function App() {
           can find in places like Paris, New York or Amsterdam.
         </p>
       </div>
-      <div className="header-container">
+      <div className="title-container">
         <p className="subheader">
           <i>
             <b>Lun(DUN). But it don’t havta be.</b>
@@ -253,21 +257,28 @@ function App() {
           <br />
         </p>
       </div>
-      <div className="subdescription-container">
-        <p className="subdescription">
-          <b>
-            <i>
-              Khalas.
-              <br />
-              (H)egemony Magazine
-              <br />7<sup>th</sup> March 2025
-            </i>
-          </b>
-        </p>
-      </div>
+      <div className="header-container">
+        <div className="subdescription-container">
+          <p className="subdescription">
+            <b>
+              <i>
+                Khalas.
+                <br />
+                (H)egemony Magazine
+                <br />7<sup>th</sup> March 2025
+              </i>
+            </b>
+          </p>
+        </div>
 
+<<<<<<< HEAD:src/App.tsx
       <div className="flag-container">
         <img className="flag" src={flag} alt="hegemony flag logo" />
+=======
+        <div className="flag-container">
+          <img className="flag" src={flag} />
+        </div>
+>>>>>>> c3cbe7a (more hegemony work):src/App.jsx
       </div>
     </>
   );

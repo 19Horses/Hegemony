@@ -11,7 +11,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+<<<<<<< HEAD
   cursor: auto;
+=======
+  cursor: url(./assets/LionLogo.svg), auto
+>>>>>>> c3cbe7a (more hegemony work)
 }
 
 body {

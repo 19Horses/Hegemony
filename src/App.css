@@ -17,17 +17,51 @@ p {
 }
 
 /*HEADER*/
+<<<<<<< HEAD
 .header-container {
+=======
+
+.header-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 6vh;
+  height: 100vh;
+}
+.title-container{
+  text-align: center;
+  padding-bottom: 6vh;
+  height: 100%;
+}
+
+.subheader-container{
+>>>>>>> c3cbe7a (more hegemony work)
   text-align: center;
   padding-bottom: 6vh;
 }
 
+<<<<<<< HEAD
 .header {
   font-size: 8vw;
 }
 
 .subheader {
   font-size: 2.5vw;
+=======
+.header{
+  font-size: 1vw;
+}
+
+.header-logo img{
+  width: 30vw;
+  height: auto;
+}
+
+.subheader{
+  font-size: 2vw;  
+>>>>>>> c3cbe7a (more hegemony work)
 }
 
 .subsubheader {
