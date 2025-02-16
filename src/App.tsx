@@ -1,11 +1,14 @@
+import { ReactP5Wrapper } from '@p5-wrapper/react';
+import { useEffect, useRef, useState } from 'react';
 import './App.css';
-import flag from './assets/SYMFlag.png';
 import logo from './assets/LionLogo.png';
-import ProgressBar from './ProgressBar';
+import flag from './assets/SYMFlag.png';
 import TrackElementWithinViewport from './Posters';
-import { useEffect, useState } from 'react';
+import ProgressBar from './ProgressBar';
+import { sketch } from './sketch';
 
 function App() {
+  const container = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -27,7 +30,7 @@ function App() {
   return (
     <>
       <ProgressBar />
-      <div className="root">
+      <div className="root" ref={container}>
         <div
           className={`header-container box ${
             isVisible ? 'root' : 'root-before'
@@ -312,9 +315,10 @@ function App() {
         </div>
       </div>
 
-      <div className={`poster-container ${isVisible ? ' hello' : 'goodbye'}`}>
+      <ReactP5Wrapper sketch={(p5) => sketch(p5, container)} />
+      {/* <div className={`poster-container ${isVisible ? ' hello' : 'goodbye'}`}>
         <TrackElementWithinViewport />
-      </div>
+      </div> */}
     </>
   );
 }

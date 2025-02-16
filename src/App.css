@@ -109,6 +109,14 @@ p {
   width: 15%;
 }
 
+.react-p5-wrapper {
+  height: 100vh;
+  width: 15%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
 .poster-container {
   transition: all 500ms;
 }
