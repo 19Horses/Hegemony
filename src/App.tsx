@@ -5,15 +5,38 @@ import poster1 from './assets/poster1.png';
 import poster2 from './assets/poster2.png';
 import ProgressBar from './ProgressBar';
 import TrackElementWithinViewport from './Posters';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const viewportHeight = window.innerHeight;
+      if (scrollPosition > viewportHeight * 0.1) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <>
       <ProgressBar />
-      <div className="root ">
-        <div className="header-container box">
+      <div className="root">
+        <div
+          className={`header-container box ${
+            isVisible ? 'root' : 'root-before'
+          }`}
+        >
           <div>
-            <p className="header">
+            <p className="header ">
               <b>
                 <i>(H)</i>EGEMONY
               </b>
@@ -32,7 +55,11 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="subheader-container">
+        <div
+          className={`subheader-container ${
+            isVisible ? 'root' : 'root-before'
+          } ${isVisible ? ' hello' : 'goodbye'}`}
+        >
           <p className="subsubheader">
             But, we
             <br />
@@ -284,7 +311,7 @@ function App() {
         </div>
       </div>
 
-      <div>
+      <div className={`poster-container ${isVisible ? ' hello' : 'goodbye'}`}>
         <TrackElementWithinViewport />
       </div>
     </>

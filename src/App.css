@@ -7,9 +7,10 @@
   width: 85vw;
 }
 
-.content-body{
-  
+.root-before{
+  width: 100vw;
 }
+
 
 body {
   background-color: white;
@@ -33,7 +34,11 @@ p {
   text-align: center;
   padding-bottom: 6vh;
   height: 100vh;
+  transition: all 500ms;
 }
+
+
+
 .title-container{
   text-align: center;
   padding-bottom: 6vh;
@@ -43,6 +48,7 @@ p {
 .subheader-container{
   text-align: center;
   padding-bottom: 6vh;
+  transition: all 500ms;
 }
 
 .header{
@@ -109,6 +115,10 @@ p {
   
 }
 
+.poster-container{
+  transition: all 500ms;
+}
+
 .poster-1{
   width: 100%;
 }
@@ -125,4 +135,12 @@ p {
   height: 100%;
   background: rgb(206, 70, 66);
   z-index: 100;
+}
+
+.hello{
+  opacity: 1;
+}
+
+.goodbye{
+  opacity: 0;
 }
