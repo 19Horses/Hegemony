@@ -89,36 +89,37 @@ function App() {
             <br />
             True culture is like fungus, it grows in dark, dank places not on
             the polished floors of Soho Aouse. Its word of mout, not sponsored
-            on Instagram. It's ard-to-find not igh street.
+            on Instagram. It&apos;s ard-to-find not igh street.
             <br />
             True radicalism in culture is always suppressed and intentionally
-            kept from you. It's not plastered on billboards sponsored by
+            kept from you. It&apos;s not plastered on billboards sponsored by
             Spotify. Culture that grows like fungus is always radical because
-            it's a challenge to power from united working-class people, the ones
-            who rise from the dark, and tells us not to consume the things they
-            tell you to, not to live the life they tell you to, to be angry at
-            the things they don't want you to. Ask yourself how we can go from
-            form 696 to the playing at the Brits? That's not progress that's
-            profit.
+            it&apos;s a challenge to power from united working-class people, the
+            ones who rise from the dark, and tells us not to consume the things
+            they tell you to, not to live the life they tell you to, to be angry
+            at the things they don&apos;t want you to. Ask yourself how we can
+            go from form 696 to the playing at the Brits? That&apos;s not
+            progress that&apos;s profit.
             <br />
-            I see the London "cultural architects" with paid in partnership
-            posts from Spotify and playing gigs at Soho House, making out
-            they're the heartbeat of London. They might be the "heartbeat", but
-            they're not a healthy heart, they're fatty & flatlining. They're
-            only the "heartbeat" because there's no alternative. And that's what
-            power wants.
+            I see the London &quot;cultural architects&quot; with paid in
+            partnership posts from Spotify and playing gigs at Soho House,
+            making out they&apos;re the heartbeat of London. They might be the
+            &quot;heartbeat&quot;, but they&apos;re not a healthy heart,
+            they&apos;re fatty & flatlining. They&apos;re only the
+            &quot;heartbeat&quot; because there&apos;s no alternative. And
+            that&apos;s what power wants.
             <br />
             They pedal and contribute to the commodifying of culture. Culture is
             now seen as a vehicle to secure the bag not be rebellious or
-            subversive. And this 'securing of the bag' has seen London culture
-            shifting away from its pioneering and unique attitudes of constantly
-            evolving and making brave, rebellious decisions, for example, on
-            clothes to make and how to wear them, or music to make or how to
-            play it, that you couldn't find anywhere else in the world, to
-            essentially following meaningless trends dictated or supported by
-            power as not to lose or upset 'the bag,' that ultimately challenges
-            nothing and is virtually the same to what you can find in places
-            like Paris, New York or Amsterdam.
+            subversive. And this &apos;securing of the bag&apos; has seen London
+            culture shifting away from its pioneering and unique attitudes of
+            constantly evolving and making brave, rebellious decisions, for
+            example, on clothes to make and how to wear them, or music to make
+            or how to play it, that you couldn&apos;t find anywhere else in the
+            world, to essentially following meaningless trends dictated or
+            supported by power as not to lose or upset &apos;the bag,&apos; that
+            ultimately challenges nothing and is virtually the same to what you
+            can find in places like Paris, New York or Amsterdam.
           </p>
         </div>
         <div className="title-container">
@@ -138,36 +139,37 @@ function App() {
             <br />
             True culture is like fungus, it grows in dark, dank places not on
             the polished floors of Soho Aouse. Its word of mout, not sponsored
-            on Instagram. It's ard-to-find not igh street.
+            on Instagram. It&apos;s ard-to-find not igh street.
             <br />
             True radicalism in culture is always suppressed and intentionally
-            kept from you. It's not plastered on billboards sponsored by
+            kept from you. It&apos;s not plastered on billboards sponsored by
             Spotify. Culture that grows like fungus is always radical because
-            it's a challenge to power from united working-class people, the ones
-            who rise from the dark, and tells us not to consume the things they
-            tell you to, not to live the life they tell you to, to be angry at
-            the things they don't want you to. Ask yourself how we can go from
-            form 696 to the playing at the Brits? That's not progress that's
-            profit.
+            it&apos;s a challenge to power from united working-class people, the
+            ones who rise from the dark, and tells us not to consume the things
+            they tell you to, not to live the life they tell you to, to be angry
+            at the things they don&apos;t want you to. Ask yourself how we can
+            go from form 696 to the playing at the Brits? That&apos;s not
+            progress that&apos;s profit.
             <br />
-            I see the London "cultural architects" with paid in partnership
-            posts from Spotify and playing gigs at Soho House, making out
-            they're the heartbeat of London. They might be the "heartbeat", but
-            they're not a healthy heart, they're fatty & flatlining. They're
-            only the "heartbeat" because there's no alternative. And that's what
-            power wants.
+            I see the London &quot;cultural architects&quot; with paid in
+            partnership posts from Spotify and playing gigs at Soho House,
+            making out they&apos;re the heartbeat of London. They might be the
+            &quot;heartbeat&quot;, but they&apos;re not a healthy heart,
+            they&apos;re fatty & flatlining. They&apos;re only the
+            &quot;heartbeat&quot; because there&apos;s no alternative. And
+            that&apos;s what power wants.
             <br />
             They pedal and contribute to the commodifying of culture. Culture is
             now seen as a vehicle to secure the bag not be rebellious or
-            subversive. And this 'securing of the bag' has seen London culture
-            shifting away from its pioneering and unique attitudes of constantly
-            evolving and making brave, rebellious decisions, for example, on
-            clothes to make and how to wear them, or music to make or how to
-            play it, that you couldn't find anywhere else in the world, to
-            essentially following meaningless trends dictated or supported by
-            power as not to lose or upset 'the bag,' that ultimately challenges
-            nothing and is virtually the same to what you can find in places
-            like Paris, New York or Amsterdam.
+            subversive. And this &apos;securing of the bag&apos; has seen London
+            culture shifting away from its pioneering and unique attitudes of
+            constantly evolving and making brave, rebellious decisions, for
+            example, on clothes to make and how to wear them, or music to make
+            or how to play it, that you couldn&apos;t find anywhere else in the
+            world, to essentially following meaningless trends dictated or
+            supported by power as not to lose or upset &apos;the bag,&apos; that
+            ultimately challenges nothing and is virtually the same to what you
+            can find in places like Paris, New York or Amsterdam.
           </p>
         </div>
         <div className="title-container">
@@ -187,36 +189,37 @@ function App() {
             <br />
             True culture is like fungus, it grows in dark, dank places not on
             the polished floors of Soho Aouse. Its word of mout, not sponsored
-            on Instagram. It's ard-to-find not igh street.
+            on Instagram. It&apos;s ard-to-find not igh street.
             <br />
             True radicalism in culture is always suppressed and intentionally
-            kept from you. It's not plastered on billboards sponsored by
+            kept from you. It&apos;s not plastered on billboards sponsored by
             Spotify. Culture that grows like fungus is always radical because
-            it's a challenge to power from united working-class people, the ones
-            who rise from the dark, and tells us not to consume the things they
-            tell you to, not to live the life they tell you to, to be angry at
-            the things they don't want you to. Ask yourself how we can go from
-            form 696 to the playing at the Brits? That's not progress that's
-            profit.
+            it&apos;s a challenge to power from united working-class people, the
+            ones who rise from the dark, and tells us not to consume the things
+            they tell you to, not to live the life they tell you to, to be angry
+            at the things they don&apos;t want you to. Ask yourself how we can
+            go from form 696 to the playing at the Brits? That&apos;s not
+            progress that&apos;s profit.
             <br />
-            I see the London "cultural architects" with paid in partnership
-            posts from Spotify and playing gigs at Soho House, making out
-            they're the heartbeat of London. They might be the "heartbeat", but
-            they're not a healthy heart, they're fatty & flatlining. They're
-            only the "heartbeat" because there's no alternative. And that's what
-            power wants.
+            I see the London &quot;cultural architects&quot; with paid in
+            partnership posts from Spotify and playing gigs at Soho House,
+            making out they&apos;re the heartbeat of London. They might be the
+            &quot;heartbeat&quot;, but they&apos;re not a healthy heart,
+            they&apos;re fatty & flatlining. They&apos;re only the
+            &quot;heartbeat&quot; because there&apos;s no alternative. And
+            that&apos;s what power wants.
             <br />
             They pedal and contribute to the commodifying of culture. Culture is
             now seen as a vehicle to secure the bag not be rebellious or
-            subversive. And this 'securing of the bag' has seen London culture
-            shifting away from its pioneering and unique attitudes of constantly
-            evolving and making brave, rebellious decisions, for example, on
-            clothes to make and how to wear them, or music to make or how to
-            play it, that you couldn't find anywhere else in the world, to
-            essentially following meaningless trends dictated or supported by
-            power as not to lose or upset 'the bag,' that ultimately challenges
-            nothing and is virtually the same to what you can find in places
-            like Paris, New York or Amsterdam.
+            subversive. And this &apos;securing of the bag&apos; has seen London
+            culture shifting away from its pioneering and unique attitudes of
+            constantly evolving and making brave, rebellious decisions, for
+            example, on clothes to make and how to wear them, or music to make
+            or how to play it, that you couldn&apos;t find anywhere else in the
+            world, to essentially following meaningless trends dictated or
+            supported by power as not to lose or upset &apos;the bag,&apos; that
+            ultimately challenges nothing and is virtually the same to what you
+            can find in places like Paris, New York or Amsterdam.
           </p>
         </div>
         <div className="title-container">
@@ -304,7 +307,7 @@ function App() {
           </div>
 
           <div className="flag-container">
-            <img className="flag" src={flag} />
+            <img className="flag" src={flag} alt="SYM logo flag" />
           </div>
         </div>
       </div>

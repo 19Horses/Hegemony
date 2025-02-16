@@ -1,28 +1,23 @@
-import { motion, useScroll } from 'framer-motion';
 import { useRef } from 'react';
 import poster1 from './assets/poster1.png';
 import poster2 from './assets/poster2.png';
 
 function Item() {
   const ref = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ['end end', 'start start'],
-  });
 
   return (
     <>
       <section style={itemContainer}>
         <div ref={ref} style={item}>
           <figure style={progressIconContainer}>
-            <img className="poster-1" src={poster1} />
+            <img className="poster" src={poster1} alt="SYM first poster" />
           </figure>
         </div>
       </section>
       <section style={itemContainer}>
         <div ref={ref} style={item}>
           <figure style={progressIconContainer}>
-            <img className="poster-2" src={poster2} />
+            <img className="poster" src={poster2} alt="SYM second poster" />
           </figure>
         </div>
       </section>

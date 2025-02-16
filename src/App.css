@@ -3,14 +3,13 @@
   display: flex;
 }
 
-.root{
+.root {
   width: 85vw;
 }
 
-.root-before{
+.root-before {
   width: 100vw;
 }
-
 
 body {
   background-color: white;
@@ -26,7 +25,7 @@ p {
 
 /*HEADER*/
 
-.header-container{
+.header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,31 +36,29 @@ p {
   transition: all 500ms;
 }
 
-
-
-.title-container{
+.title-container {
   text-align: center;
   padding-bottom: 6vh;
   height: auto;
 }
 
-.subheader-container{
+.subheader-container {
   text-align: center;
   padding-bottom: 6vh;
   transition: all 500ms;
 }
 
-.header{
+.header {
   font-size: 3vw;
 }
 
-.header-logo img{
+.header-logo img {
   width: 30vw;
   height: auto;
 }
 
-.subheader{
-  font-size: 2vw;  
+.subheader {
+  font-size: 2vw;
 }
 
 .subsubheader {
@@ -75,7 +72,6 @@ p {
   padding-bottom: 3vh;
   margin-left: 10vw;
   margin-right: 10vw;
-  
 }
 
 .description {
@@ -105,42 +101,37 @@ p {
   width: 50%;
 }
 
- .posters{
-  
+.posters {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; 
-  width:15%;
-  
+  height: 100%;
+  width: 15%;
 }
 
-.poster-container{
+.poster-container {
   transition: all 500ms;
 }
 
-.poster-1{
+.poster {
   width: 100%;
 }
-.poster-2{
-  width: 100%;
-}
- 
-.progressBar{
+
+.progressBar {
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   right: 0;
-  width:  30px;
+  width: 30px;
   height: 100%;
   background: rgb(206, 70, 66);
   z-index: 100;
 }
 
-.hello{
+.hello {
   opacity: 1;
 }
 
-.goodbye{
+.goodbye {
   opacity: 0;
 }
