@@ -1,8 +1,6 @@
 import './App.css';
 import flag from './assets/SYMFlag.png';
 import logo from './assets/LionLogo.png';
-import poster1 from './assets/poster1.png';
-import poster2 from './assets/poster2.png';
 import ProgressBar from './ProgressBar';
 import TrackElementWithinViewport from './Posters';
 import { useEffect, useState } from 'react';
