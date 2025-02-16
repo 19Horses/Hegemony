@@ -1,25 +1,21 @@
 :root {
+  cursor: url('assets/LionLogo.svg') 32 32, auto;
   font-family: Helvetica;
   line-height: 1.5;
   font-weight: 400;
 
   color: rgb(0, 0, 0);
-  background-color: #000000;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-<<<<<<< HEAD
-  cursor: auto;
-=======
-  cursor: url(./assets/LionLogo.svg), auto
->>>>>>> c3cbe7a (more hegemony work)
 }
 
 body {
-  margin: 0;
+  /* margin: 0;
   display: flex;
-  place-items: center;
+  place-items: center; */
+  
 }

@@ -1,12 +1,19 @@
 #root {
-  margin: auto auto;
-  padding: 2rem;
-  background-color: black;
+  background-color: white;
+  display: flex;
+}
+
+.root{
+  width: 85vw;
+}
+
+.content-body{
+  
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 p {
@@ -17,9 +24,6 @@ p {
 }
 
 /*HEADER*/
-<<<<<<< HEAD
-.header-container {
-=======
 
 .header-container{
   display: flex;
@@ -33,25 +37,16 @@ p {
 .title-container{
   text-align: center;
   padding-bottom: 6vh;
-  height: 100%;
+  height: auto;
 }
 
 .subheader-container{
->>>>>>> c3cbe7a (more hegemony work)
   text-align: center;
   padding-bottom: 6vh;
 }
 
-<<<<<<< HEAD
-.header {
-  font-size: 8vw;
-}
-
-.subheader {
-  font-size: 2.5vw;
-=======
 .header{
-  font-size: 1vw;
+  font-size: 3vw;
 }
 
 .header-logo img{
@@ -61,7 +56,6 @@ p {
 
 .subheader{
   font-size: 2vw;  
->>>>>>> c3cbe7a (more hegemony work)
 }
 
 .subsubheader {
@@ -70,10 +64,12 @@ p {
 
 /*DESCRIPTION*/
 .description-container {
+  display: flex;
   text-align: left;
   padding-bottom: 3vh;
   margin-left: 10vw;
   margin-right: 10vw;
+  
 }
 
 .description {
@@ -101,4 +97,32 @@ p {
 
 .flag {
   width: 50%;
+}
+
+ .posters{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
+  width:15%;
+  
+}
+
+.poster-1{
+  width: 100%;
+}
+.poster-2{
+  width: 100%;
+}
+ 
+.progressBar{
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  width:  30px;
+  height: 100%;
+  background: rgb(206, 70, 66);
+  z-index: 100;
 }
