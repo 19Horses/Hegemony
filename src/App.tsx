@@ -276,7 +276,7 @@ function App() {
             make.
             <br />
             <br />
-            <div className="poster-container">
+            <div className="poster-container" style={{ marginBottom: '32px' }}>
               <img
                 className="poster"
                 src={poster1}
