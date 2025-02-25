@@ -4,11 +4,11 @@
 }
 
 .root {
-  width: 85vw;
-}
-
-.root-before {
   width: 100vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -68,15 +68,10 @@ p {
 /*DESCRIPTION*/
 .description-container {
   display: flex;
-  text-align: left;
+  text-align: center;
   padding-bottom: 3vh;
   margin-left: 10vw;
   margin-right: 10vw;
-}
-
-.description {
-  font-size: 2vw;
-  line-height: 4vh;
 }
 
 .subdescription-container {
@@ -118,10 +113,26 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 64px;
+  margin-bottom: 48px;
 }
 
 .poster {
   width: 60%;
   height: auto;
+}
+
+/*PARAGRAPHS*/
+
+.description {
+  font-size: 2vw;
+  line-height: 4vh;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 32px;
+}
+
+/*LIST*/
+
+.list-number {
+  font-size: 1.25vw;
 }
