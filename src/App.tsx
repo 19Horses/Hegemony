@@ -2,8 +2,9 @@ import './App.css';
 import flag from './assets/SYMFlag.png';
 import logo from './assets/LionLogo.png';
 import ProgressBar from './ProgressBar';
-import TrackElementWithinViewport from './Posters';
 import { useEffect, useState } from 'react';
+import poster1 from './assets/poster1.png';
+import poster2 from './assets/poster2.png';
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -128,6 +129,13 @@ function App() {
               <b>Shouldn’t bea crime to be poor in London</b>
             </i>
           </p>
+        </div>
+        <div className="poster-container">
+          <img
+            className="poster"
+            src={poster2}
+            alt="Tracksuits and securing the bag Hegemony poster"
+          />
         </div>
         <div className="description-container">
           <p className="description">
@@ -268,6 +276,13 @@ function App() {
             make.
             <br />
             <br />
+            <div className="poster-container" style={{ marginBottom: '32px' }}>
+              <img
+                className="poster"
+                src={poster1}
+                alt="Tek charge Hegemony poster"
+              />
+            </div>
             <b>
               4. WE WANT DECENT HOUSING, FIT FOR THE SHELTER OF HUMAN BEINGS.
             </b>
@@ -310,10 +325,6 @@ function App() {
             <img className="flag" src={flag} alt="SYM logo flag" />
           </div>
         </div>
-      </div>
-
-      <div className={`poster-container ${isVisible ? ' hello' : 'goodbye'}`}>
-        <TrackElementWithinViewport />
       </div>
     </>
   );
