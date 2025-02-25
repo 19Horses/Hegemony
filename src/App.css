@@ -101,22 +101,6 @@ p {
   width: 50%;
 }
 
-.posters {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  width: 15%;
-}
-
-.poster-container {
-  transition: all 500ms;
-}
-
-.poster {
-  width: 100%;
-}
-
 .progressBar {
   position: fixed;
   top: 0;
@@ -126,12 +110,4 @@ p {
   height: 100%;
   background: rgb(206, 70, 66);
   z-index: 100;
-}
-
-.hello {
-  opacity: 1;
-}
-
-.goodbye {
-  opacity: 0;
 }

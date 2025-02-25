@@ -2,7 +2,6 @@ import './App.css';
 import flag from './assets/SYMFlag.png';
 import logo from './assets/LionLogo.png';
 import ProgressBar from './ProgressBar';
-import TrackElementWithinViewport from './Posters';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -310,10 +309,6 @@ function App() {
             <img className="flag" src={flag} alt="SYM logo flag" />
           </div>
         </div>
-      </div>
-
-      <div className={`poster-container ${isVisible ? ' hello' : 'goodbye'}`}>
-        <TrackElementWithinViewport />
       </div>
     </>
   );
