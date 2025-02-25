@@ -111,3 +111,17 @@ p {
   background: rgb(206, 70, 66);
   z-index: 100;
 }
+
+/*POSTERS*/
+.poster-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.poster {
+  width: 60%;
+  height: auto;
+}
