@@ -22,7 +22,7 @@ function App() {
 
           <img className="header-logo" src={logo} alt="Logo"></img>
 
-          <p className="subheader">
+          <p className="poem">
             <b>
               <i>
                 London’s Lost.
@@ -104,7 +104,7 @@ function App() {
           can find in places like Paris, New York or Amsterdam.
         </p>
 
-        <div className="title-container">
+        <div className="subheader-container">
           <p className="subheader">
             <i>
               <b>Shouldn’t bea crime to be poor in London</b>
@@ -224,6 +224,10 @@ function App() {
           </p>
         </div>
 
+        <p className="subheader">
+          <b>Our Demands Are Most Moderate...</b>
+        </p>
+
         <p className="description">
           <b>
             <span className="list-number">1.</span> WE WANT FREEDOM. WE WANT
@@ -297,9 +301,12 @@ function App() {
           <br />
         </p>
 
-        <div className="header-container">
+        <p className="subheader">
+          <b>... THEN WE WANT THE EARTH</b>
+        </p>
+        <footer>
           <div className="subdescription-container">
-            <p className="subdescription">
+            <p className="footer-note">
               <b>
                 <i>
                   Khalas.
@@ -311,10 +318,8 @@ function App() {
             </p>
           </div>
 
-          <div className="flag-container">
-            <img className="flag" src={flag} alt="SYM logo flag" />
-          </div>
-        </div>
+          <img className="flag" src={flag} alt="SYM logo flag" />
+        </footer>
       </div>
     </>
   );

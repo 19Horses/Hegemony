@@ -75,7 +75,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 12px;
   align-items: center;
   text-align: center;
   margin-bottom: 128px;
@@ -92,6 +91,10 @@ p {
   text-align: center;
   padding-bottom: 6vh;
   height: auto;
+}
+
+.poem {
+  font-size: calc(16px + 1vw);
 }
 
 .full-page {
@@ -137,7 +140,8 @@ p {
 }
 
 .subheader {
-  font-size: 2vw;
+  font-size: calc(20px + 1.5vw);
+  margin: 32px;
 }
 
 .subsubheader {
@@ -145,31 +149,12 @@ p {
 }
 
 @media (max-width: 767px) {
-  .subheader {
-    font-size: 12px;
-  }
-
   .subsubheader {
     font-size: 12px;
   }
 }
 
 /*DESCRIPTION*/
-.description-container {
-  display: flex;
-  text-align: center;
-  padding-bottom: 3vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
-.subdescription-container {
-  text-align: center;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
 
 .subdescription {
   font-size: 1.8vw;
@@ -184,6 +169,21 @@ p {
 
 /* FOOTNOTE */
 
+footer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  text-align: center;
+}
+
+.footer-note {
+  font-size: calc(16px + 1vw);
+}
+
 .flag-container {
   text-align: center;
   padding-top: 6vh;
@@ -191,6 +191,7 @@ p {
 
 .flag {
   width: 50%;
+  min-width: 250px;
 }
 
 /*POSTERS*/
