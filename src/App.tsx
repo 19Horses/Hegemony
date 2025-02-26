@@ -212,8 +212,8 @@ function App() {
           ultimately challenges nothing and is virtually the same to what you
           can find in places like Paris, New York or Amsterdam.
         </p>
-        <div className="title-container">
-          <p className="subheader">
+        <div className="full-page">
+          <p className="full-page-text">
             <i>
               <b>Lun(DUN). But it don’t havta be.</b>
             </i>
