@@ -18,6 +18,8 @@ html,
 body {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE & Edge */
+  overflow: -webkit-scrollbar-none; /* iOS Safari */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling */
 }
 
 /* Chrome, Safari */
@@ -89,18 +91,24 @@ p {
   transition: all 500ms;
 }
 
-.header {
-  font-size: 3vw;
+.title {
+  font-size: 5vw;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: calc(12px + 1.25vw);
 }
 
 @media (max-width: 767px) {
-  .header {
+  .title {
     font-size: 24px;
   }
 }
 
-.header-logo img {
+.header-logo {
   width: 30vw;
+  min-width: 200px;
   height: auto;
 }
 

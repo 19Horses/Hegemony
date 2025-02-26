@@ -10,26 +10,28 @@ function App() {
     <>
       <ProgressBar />
       <div className="root">
-        <div className="header-container box root">
-          <div>
-            <p className="header">
-              <b>
-                <i>(H)</i>EGEMONY
-              </b>
-            </p>
-            <p className="subheader">- Culture’s Dominatrix -</p>
-            <div className="header-logo">
-              <img src={logo} alt="Logo"></img>
-            </div>
-            <p className="subheader">
-              <i>London’s Lost.</i>
-              <br /> Isda City of Duppies
-              <br />
-              Da Rule of Mammon
-              <br />
-              Da Praise of Pagans
-            </p>
-          </div>
+        <div className="header-container root">
+          <p className="title">
+            <b>
+              <i>(H)</i>EGEMONY MAGAZINE
+            </b>
+          </p>
+          <p className="subtitle">- Culture’s Dominatrix -</p>
+
+          <img className="header-logo" src={logo} alt="Logo"></img>
+
+          <p className="subheader">
+            <b>
+              <i>
+                London’s Lost.
+                <br /> Isda City of Duppies
+                <br />
+                Da Rule of Mammon
+                <br />
+                Da Praise of Pagans
+              </i>
+            </b>
+          </p>
         </div>
         <div className="subheader-container">
           <p className="subsubheader">
