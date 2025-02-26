@@ -142,6 +142,7 @@ p {
 .subheader {
   font-size: calc(20px + 1.5vw);
   margin: 32px;
+  text-align: center;
 }
 
 .subsubheader {
@@ -221,7 +222,7 @@ footer {
   font-size: 2vw;
   line-height: 4vh;
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin-bottom: 32px;
 }
 

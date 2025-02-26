@@ -1,7 +1,7 @@
 import './App.css';
 import logo from './assets/LionLogo.png';
-import poster1 from './assets/Sheep.png';
-import poster2 from './assets/TekCharge.png';
+import poster1 from './assets/TekCharge.png';
+import poster2 from './assets/Sheep.png';
 import flag from './assets/SYMFlag.png';
 import ProgressBar from './ProgressBar';
 
