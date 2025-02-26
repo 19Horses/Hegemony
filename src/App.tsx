@@ -10,13 +10,15 @@ function App() {
     <>
       <ProgressBar />
       <div className="root">
-        <div className="header-container root">
-          <p className="title">
-            <b>
-              <i>(H)</i>EGEMONY MAGAZINE
-            </b>
-          </p>
-          <p className="subtitle">- Culture’s Dominatrix -</p>
+        <div className="header-container">
+          <div>
+            <p className="title">
+              <b>
+                <i>(H)</i>EGEMONY MAGAZINE
+              </b>
+            </p>
+            <p className="subtitle">- Culture’s Dominatrix -</p>
+          </div>
 
           <img className="header-logo" src={logo} alt="Logo"></img>
 

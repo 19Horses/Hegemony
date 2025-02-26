@@ -14,6 +14,8 @@
   padding: 12px;
 }
 
+/* SCROLLBAR */
+
 html,
 body {
   scrollbar-width: none; /* Firefox */
@@ -25,6 +27,22 @@ body {
 /* Chrome, Safari */
 ::-webkit-scrollbar {
   display: none;
+}
+
+.progressBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 100%;
+  background: rgb(206, 70, 66);
+  z-index: 100;
+}
+
+@media (max-width: 500px) {
+  .progressBar {
+    width: 10px;
+  }
 }
 
 body {
@@ -47,7 +65,7 @@ p {
 
 @media (max-width: 767px) {
   p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -57,11 +75,17 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 12px;
   align-items: center;
   text-align: center;
-  padding-bottom: 6vh;
+  margin-bottom: 128px;
   height: 100vh;
-  transition: all 500ms;
+}
+
+@media (max-width: 767px) {
+  .tiheader-containertle {
+    margin-bottom: 32px;
+  }
 }
 
 .title-container {
@@ -108,7 +132,7 @@ p {
 
 .header-logo {
   width: 30vw;
-  min-width: 200px;
+  min-width: 300px;
   height: auto;
 }
 
@@ -158,6 +182,8 @@ p {
   }
 }
 
+/* FOOTNOTE */
+
 .flag-container {
   text-align: center;
   padding-top: 6vh;
@@ -165,22 +191,6 @@ p {
 
 .flag {
   width: 50%;
-}
-
-.progressBar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 20px;
-  height: 100%;
-  background: rgb(206, 70, 66);
-  z-index: 100;
-}
-
-@media (max-width: 500px) {
-  .progressBar {
-    width: 10px;
-  }
 }
 
 /*POSTERS*/
@@ -216,9 +226,9 @@ p {
 
 @media (max-width: 767px) {
   .description {
-    width: 90%;
+    width: 95%;
     line-height: 1.1;
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
