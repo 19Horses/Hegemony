@@ -1,7 +1,7 @@
 import './App.css';
 import logo from './assets/LionLogo.png';
-import poster1 from './assets/Sheep.png';
-import poster2 from './assets/TekCharge.png';
+import poster1 from './assets/TekCharge.png';
+import poster2 from './assets/Sheep.png';
 import flag from './assets/SYMFlag.png';
 import ProgressBar from './ProgressBar';
 
@@ -10,26 +10,30 @@ function App() {
     <>
       <ProgressBar />
       <div className="root">
-        <div className="header-container box root">
+        <div className="header-container">
           <div>
-            <p className="header">
+            <p className="title">
               <b>
-                <i>(H)</i>EGEMONY
+                <i>(H)</i>EGEMONY MAGAZINE
               </b>
             </p>
-            <p className="subheader">- Culture’s Dominatrix -</p>
-            <div className="header-logo">
-              <img src={logo} alt="Logo"></img>
-            </div>
-            <p className="subheader">
-              <i>London’s Lost.</i>
-              <br /> Isda City of Duppies
-              <br />
-              Da Rule of Mammon
-              <br />
-              Da Praise of Pagans
-            </p>
+            <p className="subtitle">- Culture’s Dominatrix -</p>
           </div>
+
+          <img className="header-logo" src={logo} alt="Logo"></img>
+
+          <p className="poem">
+            <b>
+              <i>
+                London’s Lost.
+                <br /> Isda City of Duppies
+                <br />
+                Da Rule of Mammon
+                <br />
+                Da Praise of Pagans
+              </i>
+            </b>
+          </p>
         </div>
         <div className="subheader-container">
           <p className="subsubheader">
@@ -100,7 +104,7 @@ function App() {
           can find in places like Paris, New York or Amsterdam.
         </p>
 
-        <div className="title-container">
+        <div className="subheader-container">
           <p className="subheader">
             <i>
               <b>Shouldn’t bea crime to be poor in London</b>
@@ -220,6 +224,10 @@ function App() {
           </p>
         </div>
 
+        <p className="subheader">
+          <b>Our Demands Are Most Moderate...</b>
+        </p>
+
         <p className="description">
           <b>
             <span className="list-number">1.</span> WE WANT FREEDOM. WE WANT
@@ -293,9 +301,12 @@ function App() {
           <br />
         </p>
 
-        <div className="header-container">
+        <p className="subheader">
+          <b>... THEN WE WANT THE EARTH</b>
+        </p>
+        <footer>
           <div className="subdescription-container">
-            <p className="subdescription">
+            <p className="footer-note">
               <b>
                 <i>
                   Khalas.
@@ -307,10 +318,8 @@ function App() {
             </p>
           </div>
 
-          <div className="flag-container">
-            <img className="flag" src={flag} alt="SYM logo flag" />
-          </div>
-        </div>
+          <img className="flag" src={flag} alt="SYM logo flag" />
+        </footer>
       </div>
     </>
   );
