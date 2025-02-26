@@ -68,6 +68,21 @@ p {
   height: auto;
 }
 
+.full-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.full-page-text {
+  text-align: center;
+  font-size: 4rem;
+}
+
 .subheader-container {
   text-align: center;
   padding-bottom: 6vh;
@@ -152,6 +167,12 @@ p {
   height: 100%;
   background: rgb(206, 70, 66);
   z-index: 100;
+}
+
+@media (max-width: 500px) {
+  .progressBar {
+    width: 10px;
+  }
 }
 
 /*POSTERS*/
