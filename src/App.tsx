@@ -233,7 +233,7 @@ function App() {
         <p className="description">
           <b>
             <span className="list-number">1.</span> WE WANT FREEDOM. WE WANT
-            POWER TO DETERMINE THEDESTINY OF OUR BLACK AND OPPRESSED
+            POWER TO DETERMINE THE DESTINY OF OUR BLACK AND OPPRESSED
             COMMUNITIES.
           </b>
           <br />
