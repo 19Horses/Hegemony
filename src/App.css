@@ -33,10 +33,15 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 0;
   right: 0;
-  width: 20px;
+  width: 15px;
   height: 100vh;
-  background: rgb(206, 70, 66);
+  background: linear-gradient(180deg, rgb(210, 54, 43) 50%, #000000 50%);
   z-index: 100;
+}
+
+.progressBar.left {
+  left: 0;
+  background: linear-gradient(180deg, #000000 50%, rgb(210, 54, 43) 50%);
 }
 
 @media (max-width: 500px) {
