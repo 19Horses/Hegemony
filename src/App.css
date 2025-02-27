@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 25px;
 }
 
 /* SCROLLBAR */
@@ -110,7 +110,7 @@ p {
 
 .full-page-text {
   text-align: center;
-  font-size: 4rem;
+  font-size: 6vw;
 }
 
 .title {
@@ -136,22 +136,9 @@ p {
 }
 
 .subheader {
-  font-size: calc(20px + 1.5vw);
-  margin: 32px 0px 64px 0px;
+  font-size: calc(20px + 3vw);
+  margin: 64px 0px 96px 0px;
   text-align: center;
-}
-
-/*DESCRIPTION*/
-
-.subdescription {
-  font-size: 1.8vw;
-  line-height: 4vh;
-}
-
-@media (max-width: 767px) {
-  .subdescription {
-    font-size: 10px;
-  }
 }
 
 /* FOOTNOTE */
@@ -208,21 +195,18 @@ footer {
 /*PARAGRAPHS*/
 
 .description {
-  font-size: 2vw;
-  text-align: center;
-  width: 80%;
+  font-size: calc(16px + 0.4vw);
+  text-align: justify;
+  width: 95%;
   margin-bottom: 32px;
+}
+
+.description.centered {
+  text-align: center;
 }
 
 mark {
   background-color: yellow;
-}
-
-@media (max-width: 767px) {
-  .description {
-    width: 95%;
-    font-size: 20px;
-  }
 }
 
 /*LIST*/

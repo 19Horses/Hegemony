@@ -5,6 +5,10 @@ import flag from './assets/SYMFlag.png';
 import poster1 from './assets/TekCharge.png';
 import ProgressBar from './ProgressBar';
 
+function upperCase(str: string) {
+  return str.toUpperCase();
+}
+
 function App() {
   return (
     <>
@@ -66,10 +70,10 @@ function App() {
           Disda fight for our forced exodus outa our city. Disda Mandem against
           the Cunts. The Geezas against Inequality.
         </p>
-        <p className="description">
+        <p className="description centered">
           <i>Disda City of Duppies.</i>
         </p>
-        <p className="description" style={{ maxWidth: '500px' }}>
+        <p className="description centered" style={{ maxWidth: '500px' }}>
           <i>We’d eaded towar</i> a bleak existence. And it’s gonna get worse
         </p>
         <p className="description">
@@ -149,7 +153,7 @@ function App() {
         </p>
         <p className="subheader">
           <i>
-            <b>Shouldn’t bea crime to be poor in London</b>
+            <b>{upperCase('Shouldn’t bea crime to be poor in London')}</b>
           </i>
         </p>
         <div className="poster-container">
@@ -228,7 +232,7 @@ function App() {
           </p>
         </div>
         <p className="subheader">
-          <b>Our Demands Are Most Moderate...</b>
+          <b>{upperCase('Our Demands Are Most Moderate...')}</b>
         </p>
         <p className="description">
           <b>
@@ -302,23 +306,22 @@ function App() {
           little chance to know anything else.
           <br />
         </p>
-        <p className="subheader">
-          <b>... THEN WE WANT THE EARTH</b>
-        </p>
+        <div className="full-page">
+          <p className="subheader">
+            <b>{upperCase('...Then We Want The Earth')}</b>
+          </p>
+        </div>
         <footer>
-          <div className="subdescription-container">
-            <p className="footer-note">
-              <b>
-                <i>
-                  Khalas.
-                  <br />
-                  (H)egemony Magazine
-                  <br />7<sup>th</sup> March 2025
-                </i>
-              </b>
-            </p>
-          </div>
-
+          <p className="footer-note">
+            <b>
+              <i>
+                Khalas.
+                <br />
+                (H)egemony Magazine
+                <br />7<sup>th</sup> March 2025
+              </i>
+            </b>
+          </p>
           <img className="flag" src={flag} alt="SYM logo flag" />
         </footer>
       </div>
