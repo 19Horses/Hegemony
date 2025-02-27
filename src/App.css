@@ -254,3 +254,25 @@ mark {
     font-size: 10px;
   }
 }
+
+/* TO DELETE */
+
+.font-test {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  font-size: 24px;
+}

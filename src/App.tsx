@@ -3,6 +3,7 @@ import logo from './assets/LionLogo.png';
 import poster2 from './assets/Sheep.png';
 import flag from './assets/SYMFlag.png';
 import poster1 from './assets/TekCharge.png';
+import { Font } from './Font';
 import ProgressBar from './ProgressBar';
 
 function upperCase(str: string) {
@@ -12,6 +13,7 @@ function upperCase(str: string) {
 function App() {
   return (
     <>
+      <Font />
       <ProgressBar />
       <div className="root">
         <div className="header-container">
