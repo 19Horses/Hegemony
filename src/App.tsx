@@ -23,10 +23,8 @@ function App() {
             </p>
             <p className="subtitle">- Culture’s Dominatrix -</p>
           </div>
-
           <img className="header-logo" src={logo} alt="Logo"></img>
-
-          <p className="poem">
+          <p className="intro">
             <b>
               <i>
                 London’s Lost.
@@ -43,10 +41,8 @@ function App() {
           But, we
           <br />
           <i>Working Class London, Got Suttn to Say:</i>
-          <br />
-          <br />
-          <br />
-          <br />
+        </p>
+        <p className="poem">
           <b>Rise like Lions after slumber</b>
           <br />
           In unvanquishable number—
@@ -59,7 +55,7 @@ function App() {
             <b>Us Man are many—dem man are few.</b>
           </i>
         </p>
-        <p className="description">
+        <p className="description first">
           This ain’tda politics of envy. Isa politics of injustice. Dere’s an
           arsenal of distractions, a cabal of cunts, symphonies of fuckery
           blocking our march. Disda battle for control. Control and ownership of

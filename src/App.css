@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 0px 25px;
 }
 
 /* SCROLLBAR */
@@ -79,22 +79,31 @@ p {
 .header-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   height: 100vh;
+  width: 100vw;
 }
 
-.title-container {
+@media (max-width: 767px) {
+  .header-container {
+    justify-content: center;
+    gap: 24px;
+  }
+}
+
+.intro {
   text-align: center;
-  padding-bottom: 6vh;
-  height: auto;
+  justify-self: baseline;
+  font-size: calc(16px + 1vw);
+  margin-bottom: 16px;
 }
 
 .poem {
+  margin: 64px 0px;
   text-align: center;
   font-size: calc(16px + 1vw);
-  margin-bottom: 64px;
 }
 
 .full-page {
@@ -110,7 +119,7 @@ p {
 
 .full-page-text {
   text-align: center;
-  font-size: 6vw;
+  font-size: calc(20px + 4vw);
 }
 
 .title {
@@ -123,12 +132,6 @@ p {
   font-size: calc(12px + 1.25vw);
 }
 
-@media (max-width: 767px) {
-  .title {
-    font-size: 24px;
-  }
-}
-
 .header-logo {
   width: 30vw;
   min-width: 300px;
@@ -136,7 +139,7 @@ p {
 }
 
 .subheader {
-  font-size: calc(20px + 3vw);
+  font-size: calc(16px + 3vw);
   margin: 64px 0px 96px 0px;
   text-align: center;
 }
@@ -181,7 +184,7 @@ footer {
 }
 
 .poster {
-  width: 60%;
+  width: 40%;
   height: auto;
 }
 
@@ -203,6 +206,10 @@ footer {
 
 .description.centered {
   text-align: center;
+}
+
+.description.first {
+  margin-top: 128px;
 }
 
 mark {
