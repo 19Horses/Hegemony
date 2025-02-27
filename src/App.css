@@ -119,7 +119,8 @@ p {
 
 .full-page-text {
   text-align: center;
-  font-size: calc(20px + 4vw);
+  font-size: calc(24px + 4vw);
+  padding: 0px 12px;
 }
 
 .title {
