@@ -209,6 +209,7 @@ footer {
   margin-bottom: 64px;
   background-color: #000000;
   justify-self: center;
+  cursor: url('assets/LionLogoLight.svg') 32 32, auto;
 }
 
 .poster {
