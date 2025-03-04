@@ -114,7 +114,7 @@ function App() {
             after they pedal lies on the lives lost about the lives longed for.
           </mark>
         </p>
-        <p className="description">
+        <p className="description centered">
           Disda battle against da Mammon and dere legion of pagans.
         </p>
         <p className="description">
