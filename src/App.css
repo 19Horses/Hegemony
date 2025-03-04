@@ -152,6 +152,9 @@ p {
 .title {
   font-size: 7vw;
   margin-bottom: 8px;
+  white-space: nowrap;
+  width: 100vw;
+  text-align: center;
 }
 
 .subtitle {
