@@ -202,6 +202,7 @@ footer {
 .poster-container {
   width: 100vw;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 64px 0px;
@@ -215,8 +216,18 @@ footer {
   height: auto;
 }
 
+.poster-caption {
+  margin: 64px 0px 0px 0px;
+  font-size: calc(12px + 1vw);
+  color: white;
+  text-align: center;
+  padding: none;
+  width: 40%;
+}
+
 @media (max-width: 767px) {
-  .poster {
+  .poster,
+  .poster-caption {
     width: 80%;
     height: auto;
   }

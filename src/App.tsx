@@ -160,6 +160,7 @@ function App() {
             src={poster2}
             alt="Tracksuits and securing the bag Hegemony poster"
           />
+          <p className="poster-caption">You 1/4 zip cunts are next.</p>
         </div>
         <p className="description">
           The pagans, Chase Da Bag Jezzies, have ‘ored us out. No auction,
@@ -229,6 +230,17 @@ function App() {
             </i>
           </p>
         </div>
+        <div className="poster-container">
+          <img
+            className="poster"
+            src={poster1}
+            alt="Tek charge Hegemony poster"
+          />
+          <p className="poster-caption">
+            Please don’t sue us Magnum, TFL gotta case out on me. One luv and
+            3me.
+          </p>
+        </div>
         <p className="subheader">
           <b>{upperCase('Our Demands Are Most Moderate...')}</b>
         </p>
@@ -273,13 +285,6 @@ function App() {
           Black people. Therefore, we feel this is a modest demand that we make.
         </p>
         <p className="description">
-          <div className="poster-container" style={{ marginBottom: '32px' }}>
-            <img
-              className="poster"
-              src={poster1}
-              alt="Tek charge Hegemony poster"
-            />
-          </div>
           <b>
             <span className="list-number">4.</span> WE WANT DECENT HOUSING, FIT
             FOR THE SHELTER OF HUMAN BEINGS.
