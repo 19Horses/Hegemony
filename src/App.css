@@ -166,6 +166,13 @@ p {
   width: 30vw;
   min-width: 300px;
   height: auto;
+  transition: all 0.25s;
+}
+
+.header-logo:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  
 }
 
 .subheader {
