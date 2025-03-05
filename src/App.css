@@ -163,6 +163,11 @@ p {
   width: 30vw;
   min-width: 300px;
   height: auto;
+  cursor: url('assets/thumbnail.png') 32 32, auto;
+}
+
+.header-logo:hover {
+  width: 32vw;
 }
 
 .subheader {
@@ -290,6 +295,32 @@ mark {
   .list-number {
     font-size: 10px;
   }
+}
+
+/* Video Player */
+
+@keyframes growIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.video-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: growIn 0.5s ease-out forwards;
+  transform-origin: center;
 }
 
 /* TO DELETE */

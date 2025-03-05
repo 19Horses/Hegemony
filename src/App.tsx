@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import logo from './assets/LionLogo.png';
 import poster2 from './assets/Sheep.png';
@@ -5,16 +6,19 @@ import flag from './assets/SYMFlag.png';
 import poster1 from './assets/TekCharge.png';
 import { Font } from './Font';
 import ProgressBar from './ProgressBar';
+import { VideoPlayer } from './VideoPlayer';
 
 function upperCase(str: string) {
   return str.toUpperCase();
 }
 
 function App() {
+  const [showVideo, setShowVideo] = useState(false);
   return (
     <>
       <Font />
       <ProgressBar />
+      {showVideo && <VideoPlayer />}
       <div className="root">
         <div className="header-container">
           <div>
@@ -25,7 +29,9 @@ function App() {
             </p>
             <p className="subtitle">- Culture’s Dominatrix -</p>
           </div>
-          <img className="header-logo" src={logo} alt="Logo"></img>
+          <button onClick={() => setShowVideo(true)}>
+            <img className="header-logo" src={logo} alt="Logo" />
+          </button>
           <p className="intro">
             <b>
               <i>
