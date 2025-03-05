@@ -179,6 +179,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 48px;
   text-align: center;
 }
@@ -204,11 +205,12 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 64px 0px;
+  padding: 64px 0px 32px 0px;
   margin-bottom: 64px;
   background-color: #000000;
   justify-self: center;
   cursor: url('assets/LionLogoLight.svg') 32 32, auto;
+  color: white;
 }
 
 .poster {

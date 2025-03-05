@@ -309,7 +309,7 @@ function App() {
           little chance to know anything else.
           <br />
         </p>
-        <div className="full-page">
+        <div className="poster-container">
           <p className="subheader">
             <b>{upperCase('...Then We Want The Earth')}</b>
           </p>
