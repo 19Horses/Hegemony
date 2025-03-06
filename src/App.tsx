@@ -15,6 +15,7 @@ function upperCase(str: string) {
 function App() {
   const [showVideo, setShowVideo] = useState(false);
   const [fadeIn, setFadeIn] = useState(false);
+  console.log(fadeIn);
   return (
     <>
       {showVideo && (
@@ -25,11 +26,9 @@ function App() {
           }}
         />
       )}
-      <div
-        className={`root ${showVideo ? 'hide' : ''} ${fadeIn ? 'show' : ''}`}
-      >
-        <Font />
+      <div className={`root ${showVideo ? 'hide' : ''}${fadeIn ? 'show' : ''}`}>
         <ProgressBar />
+        <Font />
         <div className="header-container">
           <div>
             <p className="title">

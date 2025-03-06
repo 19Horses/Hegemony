@@ -42,23 +42,15 @@
 @keyframes fadeOut {
   from {
     opacity: 100%;
-    display: flex;
   }
   to {
     opacity: 0%;
-    display: none;
   }
 }
 
 .hide {
   animation: fadeOut 0.5s ease-out;
   opacity: 0%;
-  display: none;
-}
-
-.show {
-  animation: fadeOut 0.5s ease-out;
-  animation-direction: reverse;
 }
 
 /* SCROLLBAR */
@@ -353,7 +345,7 @@ mark {
 }
 
 .video-player {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -363,6 +355,7 @@ mark {
   justify-content: center;
   animation: growIn 0.5s ease-out forwards;
   overflow: hidden;
+  z-index: 40;
 }
 
 .video-background {
