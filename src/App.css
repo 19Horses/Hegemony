@@ -302,6 +302,7 @@ footer {
   text-align: center;
   padding: none;
   width: 40%;
+  font-family: 'Daft';
 }
 
 @media (max-width: 767px) {
