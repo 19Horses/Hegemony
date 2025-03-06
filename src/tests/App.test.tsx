@@ -1,6 +1,16 @@
-import { describe, test } from 'vitest';
+import { beforeEach, describe, test, vitest } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import App from '../App';
+
+beforeEach(() => {
+  const mockIntersectionObserver = vitest.fn();
+  mockIntersectionObserver.mockReturnValue({
+    observe: () => null,
+    unobserve: () => null,
+    disconnect: () => null,
+  });
+  window.IntersectionObserver = mockIntersectionObserver;
+});
 
 describe('When the app renders', () => {
   test('it shows the title', () => {
