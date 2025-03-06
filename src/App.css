@@ -207,14 +207,11 @@ p {
 }
 
 .header-logo {
-  animation: shrink 0.2s ease-in;
   width: 30vw;
   min-width: 300px;
   height: auto;
   cursor: url('assets/thumbnail.png') 32 32, auto;
-  opacity: 0;
-  animation: appearMain 1s forwards;
-  animation-delay: 0.1s;
+  animation: appearMain 1s forwards, shrink 0.2s ease-in;
 }
 
 @keyframes grow {
@@ -227,8 +224,9 @@ p {
 }
 
 .header-logo:hover {
-  animation: grow 0.2s ease-in;
+  animation: appearMain 1s forwards, grow 0.2s ease-in;
   width: 32vw;
+  opacity: 1;
 }
 
 .intro,
