@@ -130,6 +130,7 @@ p {
   font-size: calc(16px + 1vw);
   margin-bottom: 16px;
   font-family: 'Daft';
+  opacity: 0;
 }
 
 .poem {
@@ -137,6 +138,7 @@ p {
   text-align: center;
   font-family: 'Daft';
   font-size: calc(16px + 1vw);
+  opacity: 0;
 }
 
 .full-page {
@@ -156,6 +158,7 @@ p {
   padding: 0px 12px;
   width: 95%;
   font-family: 'GTBold';
+  opacity: 0;
 }
 
 .title {
@@ -163,6 +166,7 @@ p {
   margin: 8px 0px;
   font-family: 'GTBold';
   letter-spacing: 3px;
+  opacity: 0;
 }
 
 @media (max-width: 767px) {
@@ -174,6 +178,7 @@ p {
 .first-letter {
   letter-spacing: -1px;
   margin-right: 4px;
+  opacity: 0;
 }
 
 .subtitle {
@@ -181,6 +186,7 @@ p {
   font-size: calc(12px + 1.25vw);
   font-family: 'GT';
   letter-spacing: 4px;
+  opacity: 0;
 }
 
 @keyframes shrink {
@@ -192,12 +198,24 @@ p {
   }
 }
 
+@keyframes appearMain {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .header-logo {
   animation: shrink 0.2s ease-in;
   width: 30vw;
   min-width: 300px;
   height: auto;
   cursor: url('assets/thumbnail.png') 32 32, auto;
+  opacity: 0;
+  animation: appearMain 1s forwards;
+  animation-delay: 0.1s;
 }
 
 @keyframes grow {
@@ -214,12 +232,20 @@ p {
   width: 32vw;
 }
 
+.intro,
+.title,
+.subtitle {
+  animation: appearMain 1s forwards;
+  animation-delay: 1s;
+}
+
 .subheader {
   font-size: calc(16px + 3vw);
   margin: 64px 0px 96px 0px;
   width: 95%;
   text-align: center;
   font-family: 'Daft';
+  opacity: 0;
 }
 
 /* FOOTNOTE */
@@ -320,6 +346,7 @@ footer {
   width: 95%;
   margin-bottom: 32px;
   font-family: 'Daft';
+  opacity: 0;
 }
 
 .description.centered {
@@ -332,6 +359,20 @@ footer {
 
 mark {
   background-color: yellow;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1s forwards;
 }
 
 /*LIST*/

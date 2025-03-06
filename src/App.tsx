@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import logo from './assets/LionLogo.png';
 import poster2 from './assets/Sheep.png';
@@ -21,6 +21,28 @@ function App() {
     setShowVideo(false);
   }
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    const elements = document.querySelectorAll(
+      'p:not(.title, .subtitle, .intro)'
+    );
+    elements.forEach((element) => observer.observe(element));
+
+    return () => {
+      elements.forEach((element) => observer.unobserve(element));
+    };
+  });
   return (
     <>
       {showVideo && <VideoPlayer onEnd={() => closeVideo()} />}
@@ -54,12 +76,12 @@ function App() {
             </b>
           </p>
         </div>
-        <p className="poem">
+        <p className="poem ">
           But, we
           <br />
           <i>Working Class London, Got Suttn to Say:</i>
         </p>
-        <p className="poem">
+        <p className="poem ">
           <b>Rise like Lions after slumber</b>
           <br />
           In unvanquishable number—
