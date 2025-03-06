@@ -18,8 +18,8 @@ function App() {
     <>
       <Font />
       <ProgressBar />
-      {showVideo && <VideoPlayer />}
-      <div className="root">
+      {showVideo && <VideoPlayer onEnd={() => setShowVideo(false)} />}
+      <div className={`root ${showVideo ? 'hide' : 'show'}`}>
         <div className="header-container">
           <div>
             <p className="title">

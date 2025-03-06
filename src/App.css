@@ -159,14 +159,34 @@ p {
   font-size: calc(12px + 1.25vw);
 }
 
+@keyframes shrink {
+  from {
+    width: 32vw;
+  }
+  to {
+    width: 30vw;
+  }
+}
+
 .header-logo {
+  animation: shrink 0.2s ease-in;
   width: 30vw;
   min-width: 300px;
   height: auto;
   cursor: url('assets/thumbnail.png') 32 32, auto;
 }
 
+@keyframes grow {
+  from {
+    width: 30vw;
+  }
+  to {
+    width: 32vw;
+  }
+}
+
 .header-logo:hover {
+  animation: grow 0.2s ease-in;
   width: 32vw;
 }
 
@@ -321,6 +341,19 @@ mark {
   justify-content: center;
   animation: growIn 0.5s ease-out forwards;
   transform-origin: center;
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  opacity: 0.8;
+  overflow: hidden;
+  cursor: url('assets/cross.svg') 32 32, auto;
 }
 
 /* TO DELETE */
