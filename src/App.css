@@ -13,11 +13,6 @@ body.no-scroll {
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: local('Poppins'), url('./fonts/poppins.ttf');
-}
-
-@font-face {
   font-family: 'Daft';
   src: local('Daft'), url('./fonts/daft.ttf');
 }
@@ -30,6 +25,11 @@ body.no-scroll {
 @font-face {
   font-family: 'GT';
   src: local('GT'), url('./fonts/GT.ttf');
+}
+
+@font-face {
+  font-family: 'GTBold';
+  src: local('GTBold'), url('./fonts/GTBold.ttf');
 }
 
 @font-face {
@@ -159,19 +159,21 @@ p {
   font-size: calc(24px + 4vw);
   padding: 0px 12px;
   width: 95%;
-  font-family: 'Poppins';
+  font-family: 'GTBold';
 }
 
 .title {
-  font-size: 7vw;
+  font-size: 6.5vw;
   margin: 8px 0px;
-  font-family: 'Poppins';
+  font-family: 'GTBold';
+  letter-spacing: 3px;
 }
 
 .subtitle {
   text-align: center;
   font-size: calc(12px + 1.25vw);
-  font-family: 'Poppins';
+  font-family: 'GT';
+  letter-spacing: 6px;
 }
 
 @keyframes shrink {

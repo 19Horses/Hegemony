@@ -29,12 +29,15 @@ function App() {
       {showVideo && <VideoPlayer onEnd={() => closeVideo()} />}
       <div className={`root ${showVideo ? 'no-scroll' : ''}`}>
         <ProgressBar />
-        <Font />
+        {/* <Font /> */}
         <div className="header-container">
           <div>
             <p className="title">
               <b>
-                <i>(H)</i>EGEMONY MAGAZINE
+                <span className="first-letter">
+                  <i>(H)</i>
+                </span>
+                EGEMONY MAGAZINE
               </b>
             </p>
             <p className="subtitle">- Culture’s Dominatrix -</p>
