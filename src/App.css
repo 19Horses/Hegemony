@@ -39,6 +39,20 @@
   padding: 0px 25px;
 }
 
+@keyframes fadeOut {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+
+.hide {
+  animation: fadeOut 0.5s ease-out;
+  opacity: 0%;
+}
+
 /* SCROLLBAR */
 
 html,
@@ -159,10 +173,35 @@ p {
   font-size: calc(12px + 1.25vw);
 }
 
+@keyframes shrink {
+  from {
+    width: 32vw;
+  }
+  to {
+    width: 30vw;
+  }
+}
+
 .header-logo {
+  animation: shrink 0.2s ease-in;
   width: 30vw;
   min-width: 300px;
   height: auto;
+  cursor: url('assets/thumbnail.png') 32 32, auto;
+}
+
+@keyframes grow {
+  from {
+    width: 30vw;
+  }
+  to {
+    width: 32vw;
+  }
+}
+
+.header-logo:hover {
+  animation: grow 0.2s ease-in;
+  width: 32vw;
 }
 
 .subheader {
@@ -290,6 +329,56 @@ mark {
   .list-number {
     font-size: 10px;
   }
+}
+
+/* Video Player */
+
+@keyframes growIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.video-player {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: growIn 0.5s ease-out forwards;
+  overflow: hidden;
+  z-index: 40;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  opacity: 0.8;
+  overflow: hidden;
+  cursor: url('assets/cross.svg') 32 32, auto;
+}
+
+.video-fallback {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  background-color: black;
+  opacity: 0.9;
 }
 
 /* TO DELETE */

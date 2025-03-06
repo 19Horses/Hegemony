@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import logo from './assets/LionLogo.png';
 import poster2 from './assets/Sheep.png';
@@ -5,17 +6,29 @@ import flag from './assets/SYMFlag.png';
 import poster1 from './assets/TekCharge.png';
 import { Font } from './Font';
 import ProgressBar from './ProgressBar';
+import { VideoPlayer } from './VideoPlayer';
 
 function upperCase(str: string) {
   return str.toUpperCase();
 }
 
 function App() {
+  const [showVideo, setShowVideo] = useState(false);
+  const [fadeIn, setFadeIn] = useState(false);
+  console.log(fadeIn);
   return (
     <>
-      <Font />
-      <ProgressBar />
-      <div className="root">
+      {showVideo && (
+        <VideoPlayer
+          onEnd={() => {
+            setFadeIn(true);
+            setShowVideo(false);
+          }}
+        />
+      )}
+      <div className={`root ${showVideo ? 'hide' : ''}${fadeIn ? 'show' : ''}`}>
+        <ProgressBar />
+        <Font />
         <div className="header-container">
           <div>
             <p className="title">
@@ -25,7 +38,14 @@ function App() {
             </p>
             <p className="subtitle">- Culture’s Dominatrix -</p>
           </div>
-          <img className="header-logo" src={logo} alt="Logo"></img>
+          <button
+            onClick={() => {
+              setFadeIn(false);
+              setShowVideo(true);
+            }}
+          >
+            <img className="header-logo" src={logo} alt="Logo" />
+          </button>
           <p className="intro">
             <b>
               <i>
