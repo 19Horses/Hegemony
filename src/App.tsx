@@ -15,18 +15,16 @@ function App() {
   const [showVideo, setShowVideo] = useState(false);
   function openVideo() {
     setShowVideo(true);
-    document.body.classList.add('no-scroll');
   }
 
   function closeVideo() {
     setShowVideo(false);
-    document.body.classList.remove('no-scroll');
   }
 
   return (
     <>
       {showVideo && <VideoPlayer onEnd={() => closeVideo()} />}
-      <div className={`root ${showVideo ? 'no-scroll' : ''}`}>
+      <div className="root">
         <ProgressBar />
         <div className="header-container">
           <div>

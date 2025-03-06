@@ -1,15 +1,26 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player/lazy';
 
 const URL = 'https://vimeo.com/1062743109';
 
-const Fallback = () => {
-  return <div className="video-fallback" />;
-};
-
 export const VideoPlayer = ({ onEnd }: { onEnd: () => void }) => {
   const [closed, setClosed] = useState(false);
   const [isReady, setIsReady] = useState(false);
+
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const close = () => {
     setClosed(true);
@@ -18,26 +29,25 @@ export const VideoPlayer = ({ onEnd }: { onEnd: () => void }) => {
     }, 500);
   };
   return (
-    <button
-      className={`video-player ${closed ? 'closed' : ''}`}
-      onClick={() => close()}
+    <div
+      className={`video-player ${closed ? 'closed' : ''} ${
+        isScrolled ? 'scrolled' : ''
+      }`}
     >
-      {/* {!closed && ( */}
-      <>
-        {!isReady && <Fallback />}
-        <ReactPlayer
-          url={URL}
-          controls={false}
-          width="50%"
-          height="50%"
-          playing={isReady}
-          fallback={<Fallback />}
-          style={{ zIndex: 99 }}
-          onEnded={() => close()}
-          onReady={() => setIsReady(true)}
-        />
-      </>
-      {/* )} */}
-    </button>
+      <button className="close" onClick={() => close()}></button>
+
+      <ReactPlayer
+        onClickPreview={() => close()}
+        url={URL}
+        controls={false}
+        playing={isReady}
+        playsinline
+        style={{
+          zIndex: 99,
+        }}
+        onEnded={() => close()}
+        onReady={() => setIsReady(true)}
+      />
+    </div>
   );
 };
