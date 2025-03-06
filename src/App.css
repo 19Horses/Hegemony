@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url('./fonts/poppins.ttf');
+}
+
+@font-face {
   font-family: 'Daft';
   src: local('Daft'), url('./fonts/daft.ttf');
 }
@@ -138,11 +143,13 @@ p {
   justify-self: baseline;
   font-size: calc(16px + 1vw);
   margin-bottom: 16px;
+  font-family: 'Daft';
 }
 
 .poem {
   margin: 64px 0px;
   text-align: center;
+  font-family: 'Daft';
   font-size: calc(16px + 1vw);
 }
 
@@ -161,16 +168,20 @@ p {
   text-align: center;
   font-size: calc(24px + 4vw);
   padding: 0px 12px;
+  width: 95%;
+  font-family: 'Poppins';
 }
 
 .title {
   font-size: 7vw;
-  margin-bottom: 8px;
+  margin: 8px 0px;
+  font-family: 'Poppins';
 }
 
 .subtitle {
   text-align: center;
   font-size: calc(12px + 1.25vw);
+  font-family: 'Poppins';
 }
 
 @keyframes shrink {
@@ -207,7 +218,9 @@ p {
 .subheader {
   font-size: calc(16px + 3vw);
   margin: 64px 0px 96px 0px;
+  width: 95%;
   text-align: center;
+  font-family: 'Daft';
 }
 
 /* FOOTNOTE */
@@ -231,6 +244,7 @@ footer {
 
 .footer-note {
   font-size: calc(16px + 1vw);
+  font-family: 'Daft';
 }
 
 .flag-container {
@@ -305,6 +319,7 @@ footer {
   text-align: justify;
   width: 95%;
   margin-bottom: 32px;
+  font-family: 'Daft';
 }
 
 .description.centered {
