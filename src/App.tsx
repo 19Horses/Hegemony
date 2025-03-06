@@ -76,12 +76,12 @@ function App() {
           This ain’tda politics of envy. Isa politics of injustice. Dere’s an
           arsenal of distractions, a cabal of cunts, symphonies of fuckery
           blocking our march. Disda battle for control. Control and ownership of
-          our lives, our output, even our fun. We’re no longer content with just
+          our lives, our output, our fun. We’re no longer content with just
           enough. Just enough opportunities, just enough enjoyment, just enough
           Landun in London. Just enough ain’t just no more. Disda fight for our
-          aousing, our education, our culture. Disda fight for preservation.
-          Disda fight for our forced exodus outa our city. Disda Mandem against
-          the Cunts. The Geezas against Inequality.
+          aousing, our education, our culture. Disda fight for
+          self-preservation. Disda fight for our forced exodus outa our city.
+          Disda Mandem against the Cunts. The Geezas against Inequality.
         </p>
         <p className="description centered">
           <i>Disda City of Duppies.</i>
@@ -92,27 +92,21 @@ function App() {
         <p className="description">
           The shadows and the screams ‘aunt us. Do they not ‘aunt dem? “When
           hipsters take selfies on the corners where our friends died, the rent
-          goes up”. When the elders move on, the eejits move in.{' '}
-          <mark>
-            Whena gentrifier dances on sacred ground, the bass roars and the
-            ground shakes in unified uproar. (more poetic)
-          </mark>
-          . Our essence: Landun, is under threat.{' '}
-          <mark>
-            The unspoken rules, the synchronized steps, the taste buds for
-            miskeens/ cool...
-          </mark>{' '}
-          Dear reader, you havta undastand, anyone can bea Londoner, but us.
-          We’re Landun. We turned London into Landun. Forced to live behind the
-          cladding, the thousand towns, wida thousand tones, anda thousand
-          tribes united. The basements and bomb shelters melled a rebel people.
-          Da bass and beatings melled a proud people. Our environment formed us.
-          The water shaped us. Dere water gives em e.coli. Our water gives us
-          the <mark>minerals for defiance</mark>. Dey creased at us, ridiculed
-          this essence. But ultimately dey, the people with everyting, yet nuttn
-          yearned for this. The Mammon, contorted, screamed looking down at us.
-          Anda ting dey ridiculed, our essence, became the object of dere
-          deformed desires. Alas, the battle commences.
+          goes up”. When the elders move on, the eejits move in. Whena miskeen
+          missteps on sacred ground, the foundations tremble. Landun, our
+          essence, is under threat. You see, dere are unspoken rules ere. Ones
+          that synchronise steps. You havta undastand, dear reader, anyone can
+          bea Londoner, but us. We’re Landun. We turned London into Landun.
+          Forced to live behind the cladding, the thousand towns, wida thousand
+          tones, anda thousand tribes united. The basements and bomb shelters
+          melled a rebel people. Da bass and beatings melled a proud people. Our
+          environment formed us. The water shaped us. Dere water gives em
+          e.coli. Our water, nutrient rich, gives us the minerals for dissent.
+          Dey creased at us, ridiculed this essence. But ultimately dey, the
+          people with everyting, yet nuttn, yearned for this. The Mammon,
+          contorted, screamed looking down at us. Anda ting dey ridiculed, our
+          essence, became the object of dere deformed desires. And so, the
+          battle commences
         </p>
         <p className="description">
           But dey deny this with semantics. Dey distract us wida wails of
@@ -122,47 +116,63 @@ function App() {
           to our people. Dey couldn’t giva monkies boutda truth. Dey fear the
           truth. Dey hava conscious absence in consciousness. Dere teeth glint,
           but smoke covers dere eyes. We paid for those railings, but it’s us
-          burning. Dey must think ow can sulphur smell so sweet when our spirit
-          ignites.{' '}
-          <mark>
-            Dere laughs ring out, on the sacred sites of luxury apartments,
-            after they pedal lies on the lives lost about the lives longed for.
-          </mark>
+          burning. We breathed in brutality. Asbestos tri clog our spirit. But
+          bitter, dey ponder: “how can sulphur smell so sweet when their spirit
+          ignites?”
         </p>
         <p className="description centered">
           Disda battle against da Mammon and dere legion of pagans.
         </p>
-        <p className="description">
-          ‘You cannot serve both London and Mammon.’ Both your postcode and
-          Rightmove. Gentrification is not so slight sleight of hand emptying
-          inner cities of their families Whena gentrifier dances on sacred
-          ground, the bass roars and the ground shakes in unified uproar. (more
-          poetic). The unspoken rules, the synchronized steps, the taste buds
-          for Dere laughs ring out, on the sacred sites of luxury apartments,
-          after they pedal lies on the lives lost about the lives longed for and
-          communities. Schools closing cos there are no kids left, less noise at
-          3:30, the mid-afternoon Work from Homerton digital nomad naps can
-          continue. A six year-old doesn’t earn three times the rent, but you’d
-          think their average management industry brains coming in think
-          London’s their playground. Stay a while to tick off the London
-          ‘experience’, so you can move to the shires when the deposit’s ready,
-          and die without regrets. Can’t pay, we’ll take you away. Alright for
-          the other lot to stay, they won’t stick around after all.
+        <p className="subheader">
+          <i>
+            <b>{upperCase('awaiting text')}</b>
+          </i>
         </p>
         <p className="description">
-          London’s become a gig economy. Its inhabitants are shift workers,
-          scabs breaking picket lines and sit-ins of generations, taking up the
-          space for new communities to build with cavalry of temp-Londoners.
-          They don’t realise they’ll be the next to get evicted to Peterborough
-          in a few months time. But instead of solidarity, ‘the game’s the
-          game’.
+          We can’t serve both Landun and Mammon. Both our postcode and
+          Rightmove. We’re losing our aouses, our people, our future. We’re
+          being replaced by Bucket-List Londoners. Taking up our space, dey stay
+          ta tick off the “London experience”, so dey can move back to the
+          shires when the deposit’s ready and die without regrets. Da Mammon
+          rules and decrees:
+        </p>
+        <p className="description centered">
+          can’t pay, we’ll take you away. Alright for the other lot to stay.
         </p>
         <p className="description">
-          The more you have to promote the London ‘brand’, the more you can be
-          sure there’s fuck all underneath it. You flog what you can’t shift.
-          Subculture? Subpar. - talk about how the essence is under such brutal
-          attack, that it’s a real sacrifice to pursue authentic culture at the
-          sacrifice of surviving – whats authenticy when you hava survive.
+          Gentrification ain’t so sleighta ‘and, displacing Landuners of our
+          ome’s. Mammon sees us as taking up the space to build new conmunities
+          forda cavalry of temp-Londoners. Da Mammon’s merceries ravage da
+          thousand towns of our families and communities. Dey pillage ends till
+          the new builds bury our culture and istory. Dere ona clean up mission.
+          Picking up alla our dropped h’s. Schools closing cos there’s no kids
+          left. Less noise at 3:30 soda mid-afternoon work-from-Homerton digital
+          nomad kips can continue. Monasteries, replaced with monstrosities. Our
+          noise now ticketed and dispersed before last orders. The trains finish
+          early, asta remind us that only our nostalgia is allowed to remain in
+          the city after dark.
+        </p>
+        <p className="description">
+          De Mammon’s desires will turn London into the Empire of Void. De
+          Mammon’s postcode will be offshore. The only noise will be building
+          work. Dubai-Upon-Thames will rise. It will become the real Thames
+          Barrier, the igh rises iding the corruption and greed of the city.
+          Everyting will be ona zero-hour contract. Even da trains, overpacked
+          and overpriced transporting the cattle of exiled Londoners to work. It
+          will become one big food market. Catering to dere bland tastebuds,
+          dere devilish appetite for greed and an even igher tolerance for
+          mediocrity. The only businesses thriving will be dry cleaners,
+          backlogged on pesto stained ¼ zips and baggy filled gilets. Self-help
+          gurus, improving everything but their personalities.
+        </p>
+        <p className="description">
+          Life in London is nowda fight for space. Our essence, under such
+          brutal attack, constantly bombarded with fuckery. Dere’s nota corner
+          or cadence or creative in Landun which the Mammon’s greed aint got its
+          eye on. We’re fighting for space to live, to create, to preserve.
+          Simply, we’re fighting for survival. We’re fighting not to be the next
+          to get evicted to Peterborough. Landuners born in Landun can no longer
+          afford to stay. The Landun Lineage gone.
         </p>
         <p className="subheader">
           <i>
@@ -178,20 +188,31 @@ function App() {
           <p className="poster-caption">You 1/4 zip cunts are next.</p>
         </div>
         <p className="description">
-          The pagans, Chase Da Bag Jezzies, have ‘ored us out. No auction,
-          dashed to the cheapest bidder. London culture is nowa commodity. Its
-          dictated to us from above. Real culture, our true essence, should be
-          used to challenge not conform. The only thing London culture
-          challenges now, is ow low can we go?
+          The pagans, Chase Da Bag Jezzies, have ‘ored us out. As London’s
+          become a gig economy, our essence under even greater threat, de Mammon
+          demands we become its shift workers. Scabs breaking picket lines. De
+          pagans ave dashed us to the cheapest bidder. Landun culture is nowa
+          commodity. Its dictated to us from above. Real culture, our true
+          essence, should be used to challenge not conform. The only thing
+          London culture challenges now, is ow low can we go?
         </p>
         <p className="description">
           True culture is like fungus. It grows in dark, dank places not on the
-          polished floors of Soho Aouse. Its suppressed and intentionally kept
-          from you. Isa challenge to power, which dey fear, from united
-          working-class people, the ones who rise from the dark anda dank. Its
-          word of mout, not sponsored on Instagram or{' '}
-          <mark>plastered on billboards sponsored by Spotify.</mark> It&apos;s
-          ard-to-find not igh street.
+          polished floors of Television Centre. It’s suppressed and
+          intentionally kept from you. Isa challenge to power, which dey fear,
+          from united Working-Class people, the ones who rise from the dark anda
+          dank. Its word of mout, not sponsored on Instagram or plastered on
+          billboards sponsored by Spotify. It’s ard-to-find not igh street.
+        </p>
+        <p className="description">
+          Ask yourself ow we can go from form 696 to playing at the Brits?
+          That’s not progress that’s profit. Da London &quot;cultural
+          architects&quot; with paid in partnership posts and playing gigs at
+          Soho Aouse, wearing new era caps and air forces, saying ‘hella,”
+          making out they’re the “heartbeat” of London. They might be the
+          &quot;heartbeat&quot;, but they’re nota ealthy ‘eart, they’re fatty &
+          flatlining. They’re only the &quot;heartbeat&quot; because there’s no
+          alternative. And that’s what power wants.
         </p>
         <p className="description">
           Ask yourself ow we can go from form 696 to the playing at the Brits?
@@ -205,38 +226,61 @@ function App() {
         </p>
         <p className="description">
           Dey pedal a commodified, co-opted mimic of our essence. One dats safe
-          and shat out of anyting subversive or orginal or challenging. One that
+          and shat out of anyting subversive or original or authentic. One that
           shifts with the status quo and interests of da Mammon. We’re now
           consuming not challenging. Anda pagans, ran thru and raw, facilitate
-          this. Captured and chained toda “bag” and their guilt eased wit
+          this. Captured and chained toda “bag” and their guilt quashed wit
           semantics ana pretence about “progression.” Dey buy the logic, dey
           believe the lies of da Mammon. Can we blame em? I’ll let you decide.
-          With our essence suppressed, and inda void, the pagans are promoted as
+          With our essence suppressed, inda void, the pagans are lauded as
           “Landun.” Asda real. Which they ain’t. Dere simplya gimmick chatting
-          Mammon wassa wida “Landun” accent. Their chains never allow dem...{' '}
-          <mark>
-            {' '}
-            Their chains never fully allowing us to get close enough to see the
-            heterochromia in their eyes. Greed in one and delusion inda uder. Or
-            something to do with rotting (to contrast the spirit igniting bar)
-          </mark>
+          Mammon wassa wida “Landun” accent. We earda flies feasting, we sense
+          the vultures circling up above, we smelda scraps of re-arranged guts,
+          but dere shackles neva allow us to get a propa look at dere rotting
+          wounds. The stench of tokenism too great to ignore.
+        </p>
+        <p className="subheader">
+          <i>
+            <b>{upperCase('awaiting text')}</b>
+          </i>
         </p>
         <p className="description">
-          Wida real suppressed anda pagan promoted, the perception of our
-          essence is now lost. da Mammon as made the possibility of having an
-          alternative even harder. Wida essence under such brutal attack.
-          Because it walks like us, talks like us, its easy to believe it. Its
-          easy to believe the perception of essence as this, but it ain’t.
-          Culture is now seen as a vehicle to secure the bag not be rebellious
-          or subversive. And this &apos;securing of the bag&apos; has seen
-          London culture shifting away from its pioneering and unique attitudes
-          of constantly evolving and making brave, rebellious decisions, for
-          example, on clothes to make and how to wear them, or music to make or
-          how to play it, that you couldn&apos;t find anywhere else in the
-          world, to essentially following meaningless trends dictated or
-          supported by power as not to lose or upset &apos;the bag,&apos; that
-          ultimately challenges nothing and is virtually the same to what you
-          can find in places like Paris, New York or Amsterdam.
+          Alas, dear reader, we find ourselves ere. Wid Landun pillaged, our
+          essence suppressed anda pagan promoted, the Mammon’s desires are met.
+          Bear wid me ere, dear reader. Ima get propa political. The Mammon
+          desires Landun for two reasons, to exploit and co-opt our essence.
+        </p>
+        <p className="description">
+          Da ruling class controls us mainly thru fear but also through the
+          control of ideas. Da intention ista maintain their dominance of ideas
+          and values over us. The concept of Hegemony describes this. Through
+          institutions like media and education these egemonic ideas are spread.
+          The idea is to maintain the status quo. Dere brain-washing the
+          peoplesdem. The reason why our essence is so sacred, and ultimately
+          feared, is because it rejects da Mammon’s egemonic plans for us. It
+          promotes Working Class pride, expression and unity. Its
+          anti-establishment. Our essence, true London Working Class culture,
+          that lines our DNA, is tasted in our grub, forged in our iron spirit,
+          promotes the idea that life isn’t meant to be endured, but enjoyed. It
+          promotes the idea that injustice for one, is injustice for all. In its
+          nature, isa challenge to power. Derefore, de Mammon desires our
+          essence, to both profit from it and co-opt it. Establishment
+          institutions, media, art and education, are widely distrusted, soda
+          ruling class turns its attention to counterculture. It captures/
+          co-opts our essence wida intention ta maintain dis control. De mammon
+          preys on and ides in the cries of dissent for itself and weaves and
+          re-invests itself as suttn appearing to be anti-establishment. It
+          works, because it walks and talks like us, its appears like us,
+          derefore people trust this mimic. Dey convince people datda mould’s
+          breaking. But in actuality it’s the rot multiplying. Dey mistake it as
+          being de real essence. But init’s true rotting nature, it promotes the
+          ideas of exploitation, individualism and inequality to make dose
+          orrors seem natural and inevitable. It encourages people not to
+          disrupt de exploitation of our ends or culture, but to join in. Ow
+          many cunts ave you eard proclaim “the game’s the game?” Our true
+          essence would never accept dis. Dis gimmick of our culture, our
+          essence, which at its truest, is the ecstasy of the masses, is
+          distorted to become the opium of the masses.
         </p>
         <div className="full-page">
           <p className="full-page-text">
@@ -259,69 +303,101 @@ function App() {
         <p className="subheader">
           <b>{upperCase('Our Demands Are Most Moderate...')}</b>
         </p>
-        <p className="description">
+        <p className="description centered">
           <b>
-            <span className="list-number">1.</span> WE WANT FREEDOM. WE WANT
-            POWER TO DETERMINE THE DESTINY OF OUR BLACK AND OPPRESSED
-            COMMUNITIES.
+            <span className="list-number">1.</span> DERE’S ONLY ONE WAR WORTH
+            FIGHTING. CLASS WAR
           </b>
           <br />
-          We believe that Black and oppressed people will not be free until we
-          are able to determine our destinies in our own communities ourselves,
-          by fully controlling all the institutions which exist in our
-          communities.
+          No gentrifier or liberal can ever try belittle the class war. Your
+          pronouns or watermelon badges can’t disguise your privilege.
+          Alternatively, you Reform cunts can’t dare blame immigrants for your
+          problems before you blame the rich. The cultural divide and rule is
+          intentional. The class war is deliberately quashed. Split people with
+          identity politics. Dere’s only 2 identities to remember: Rich & Poor.
         </p>
-        <p className="description">
+        <p className="description centered">
           <b>
-            <span className="list-number">2.</span> WE WANT FULL EMPLOYMENT FOR
-            OUR PEOPLE.
+            <span className="list-number">2.</span> WE DEMANDA END OFDA THEFT OF
+            OUR OMES OUR CULTURE AND OUR LABOUR. WE HAVTA PROTECT OUR ESSENCE.
           </b>
           <br />
-          We believe that the federal government is responsible and obligated to
-          give every person employment or a guaranteed income. We believe that
-          if the American businessmen will not give full employment, then the
-          technology and means of production should be taken from the
-          businessmen and placed in the community so that the people of the
-          community can organize and employ all of its people and give a high
-          standard of living.
+          Mandem/ gyaldem/ dey-dem dem, we havta understand Landun is London.
+          We’re London’s eartbeat. Weather it’s our bassline, waistline or
+          production line, we run London. Our culture is Britain’s greatest
+          commodity. London does criminal capitalism. Landun does culture. We
+          have to protect it from the clutches of Mammon. We can’t fling our
+          culture, our essence.
+          <br></br>
+          <br></br>
+          No gentrifier can ever try belittle the class war. Your pronouns or
+          watermelon badges can’t disguise your privilege. The class war is
+          deliberately quashed. Alternatively, you Reform cunts can’t dare blame
+          immigrants for your problems before you blame the rich.
         </p>
-        <p className="description">
+        <p className="description centered">
           <b>
-            <span className="list-number">3.</span> WE WANT AN END TO THE
-            ROBBERY BY THE CAPITALISTS OF OUR BLACK AND OPPRESSED COMMUNITIES.
+            <span className="list-number">3.</span> WE DEMAND SECURE AOUSING,
+            JOBS, HEALTHCARE AND EDUCATION.
           </b>
           <br />
-          We believe that this racist government has robbed us and now we are
-          demanding the overdue debt of forty acres and two mules. Forty acres
-          and two mules were promised 100 years ago as restitution for slave
-          labor and mass murder of Black people. We will accept the payment in
-          currency which will be distributed to our many communities. The
-          American racist has taken part in the slaughter of our fifty million
-          Black people. Therefore, we feel this is a modest demand that we make.
+          The crumbling of our welfare state is disgusting. It’s the only thing
+          we can truly be patriotic about. We demand the protection and
+          improving as absolute priorities.
         </p>
-        <p className="description">
+        <p className="description centered">
           <b>
-            <span className="list-number">4.</span> WE WANT DECENT HOUSING, FIT
-            FOR THE SHELTER OF HUMAN BEINGS.
+            <span className="list-number">4.</span> SENDA VULTURES DUBAI.
           </b>
           <br />
-          We believe that if the landlords will not give decent housing to our
-          Black and oppressed communities, then housing and the land should be
-          made into cooperatives so that the people in our communities, with
-          government aid, can build and make decent housing for the people.
+          If dem developer man love skyscrapers – dere’s ol desert for you to
+          wreck. Leave Landun alone. Your kettle’s safer overdere anyway.
         </p>
-        <p className="description">
+        <p className="description centered">
           <b>
-            <span className="list-number">5.</span> WE WANT DECENT EDUCATION FOR
-            OUR PEOPLE THAT EXPOSES THE TRUE NATURE OF THIS DECADENT AMERICAN
-            SOCIETY. WE WANT EDUCATION THAT TEACHES US OUR TRUE HISTORY AND OUR
-            ROLE IN THE PRESENT-DAY SOCIETY.
+            <span className="list-number">5.</span> LANDLORDS, TFL TICKET MAN,
+            BALIFFS… PUSSES.
           </b>
           <br />
-          We believe in an educational system that will give to our people a
-          knowledge of the self. If you do not have knowledge of yourself and
-          your position in the society and in the world, then you will have
-          little chance to know anything else.
+          Absolute cunts. Bottom breed.
+          <br />
+        </p>
+        <p className="description centered">
+          <b>
+            <span className="list-number">6.</span> TAXDA RICH..
+          </b>
+          <br />
+          Nuff said really.
+          <br />
+        </p>
+        <p className="description centered">
+          <b>
+            <span className="list-number">7.</span> WE DEMAND SPACE TO CREATE
+            AND ENJOY.
+          </b>
+          <br />
+          We want to go out out and not ave our enjoyment mercilessly feasted
+          upon. We want to go out out and not spend score-five entry, £30 a
+          round forda dance to khalas at 2am and spend more time travelling
+          backa gaff dan we do dancing.
+          <br />
+        </p>
+        <p className="description centered">
+          <b>
+            <span className="list-number">8.</span> MISS ME WIDYA CONMUNITY.
+          </b>
+          <br />
+          Everyone’s favourite word. Means absolutely fuck all.
+          <br />
+        </p>
+        <p className="description centered">
+          <b>
+            <span className="list-number">9.</span> WE’LL RAISE OUR FISTS BEFORE
+            WE RAISE OUR DRINKS.
+          </b>
+          <br />
+          We’re a defiant, victorious people. Dem man will pour libations. Us
+          man will pop bottles.
           <br />
         </p>
         <div className="poster-container thin">
