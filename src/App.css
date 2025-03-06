@@ -1,3 +1,7 @@
+body.no-scroll {
+  overflow: hidden;
+}
+
 #root {
   background-color: white;
   display: flex;
@@ -44,20 +48,6 @@
   padding: 0px 25px;
 }
 
-@keyframes fadeOut {
-  from {
-    opacity: 100%;
-  }
-  to {
-    opacity: 0%;
-  }
-}
-
-.hide {
-  animation: fadeOut 0.5s ease-out;
-  opacity: 0%;
-}
-
 /* SCROLLBAR */
 
 html,
@@ -80,7 +70,7 @@ body::-webkit-scrollbar {
   width: 15px;
   height: 100vh;
   background: linear-gradient(180deg, rgb(234, 51, 35) 50%, #000000 50%);
-  z-index: 100;
+  z-index: 5;
 }
 
 .progressBar.left {
@@ -349,14 +339,12 @@ mark {
 
 /* Video Player */
 
-@keyframes growIn {
+@keyframes appear {
   from {
-    transform: scale(0);
-    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
   }
   to {
-    transform: scale(1);
-    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.8);
   }
 }
 
@@ -369,21 +357,26 @@ mark {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: growIn 0.5s ease-out forwards;
+  animation: appear 0.5s ease-out forwards;
   overflow: hidden;
   z-index: 40;
+  cursor: crosshair;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
 }
 
-.video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000000;
-  opacity: 0.8;
-  overflow: hidden;
-  cursor: url('assets/cross.svg') 32 32, auto;
+@keyframes disappear {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+
+.video-player.closed {
+  animation: disappear 0.5s ease-out;
+  opacity: 0%;
 }
 
 .video-fallback {
