@@ -10,8 +10,7 @@ const Fallback = () => {
 export const VideoPlayer = ({ onEnd }: { onEnd: () => void }) => {
   const [isReady, setIsReady] = useState(false);
   return (
-    <div className="video-player">
-      <button className="video-background" onClick={() => onEnd()} />
+    <button className="video-player" onClick={() => onEnd()}>
       {!isReady && <Fallback />}
       <ReactPlayer
         url={URL}
@@ -24,6 +23,6 @@ export const VideoPlayer = ({ onEnd }: { onEnd: () => void }) => {
         onEnded={() => onEnd()}
         onReady={() => setIsReady(true)}
       />
-    </div>
+    </button>
   );
 };

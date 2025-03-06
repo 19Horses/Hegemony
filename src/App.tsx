@@ -14,19 +14,20 @@ function upperCase(str: string) {
 
 function App() {
   const [showVideo, setShowVideo] = useState(false);
-  const [fadeIn, setFadeIn] = useState(false);
-  console.log(fadeIn);
+  function openVideo() {
+    setShowVideo(true);
+    document.body.classList.add('no-scroll');
+  }
+
+  function closeVideo() {
+    setShowVideo(false);
+    document.body.classList.remove('no-scroll');
+  }
+
   return (
     <>
-      {showVideo && (
-        <VideoPlayer
-          onEnd={() => {
-            setFadeIn(true);
-            setShowVideo(false);
-          }}
-        />
-      )}
-      <div className={`root ${showVideo ? 'hide' : ''}${fadeIn ? 'show' : ''}`}>
+      {showVideo && <VideoPlayer onEnd={() => closeVideo()} />}
+      <div className={`root ${showVideo ? 'no-scroll' : ''}`}>
         <ProgressBar />
         <Font />
         <div className="header-container">
@@ -38,12 +39,7 @@ function App() {
             </p>
             <p className="subtitle">- Culture’s Dominatrix -</p>
           </div>
-          <button
-            onClick={() => {
-              setFadeIn(false);
-              setShowVideo(true);
-            }}
-          >
+          <button onClick={() => openVideo()}>
             <img className="header-logo" src={logo} alt="Logo" />
           </button>
           <p className="intro">
