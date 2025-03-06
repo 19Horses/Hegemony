@@ -1,6 +1,10 @@
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/lazy';
 
 const URL = 'https://vimeo.com/1062743109';
+
+const Fallback = () => {
+  return <div className="video-fallback" />;
+};
 
 export const VideoPlayer = ({ onEnd }: { onEnd: () => void }) => {
   return (
@@ -12,6 +16,7 @@ export const VideoPlayer = ({ onEnd }: { onEnd: () => void }) => {
         width="50%"
         height="50%"
         playing
+        fallback={<Fallback />}
         style={{ zIndex: 99 }}
         onEnded={() => onEnd()}
       />

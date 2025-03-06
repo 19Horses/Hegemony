@@ -39,6 +39,28 @@
   padding: 0px 25px;
 }
 
+@keyframes fadeOut {
+  from {
+    opacity: 100%;
+    display: flex;
+  }
+  to {
+    opacity: 0%;
+    display: none;
+  }
+}
+
+.hide {
+  animation: fadeOut 0.5s ease-out;
+  opacity: 0%;
+  display: none;
+}
+
+.show {
+  animation: fadeOut 0.5s ease-out;
+  animation-direction: reverse;
+}
+
 /* SCROLLBAR */
 
 html,
@@ -340,7 +362,6 @@ mark {
   align-items: center;
   justify-content: center;
   animation: growIn 0.5s ease-out forwards;
-  transform-origin: center;
   overflow: hidden;
 }
 
@@ -354,6 +375,12 @@ mark {
   opacity: 0.8;
   overflow: hidden;
   cursor: url('assets/cross.svg') 32 32, auto;
+}
+
+.video-fallback {
+  width: 50%;
+  height: 50%;
+  background-color: black;
 }
 
 /* TO DELETE */

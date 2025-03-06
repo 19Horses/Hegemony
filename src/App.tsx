@@ -14,12 +14,22 @@ function upperCase(str: string) {
 
 function App() {
   const [showVideo, setShowVideo] = useState(false);
+  const [fadeIn, setFadeIn] = useState(false);
   return (
     <>
-      <Font />
-      <ProgressBar />
-      {showVideo && <VideoPlayer onEnd={() => setShowVideo(false)} />}
-      <div className={`root ${showVideo ? 'hide' : 'show'}`}>
+      {showVideo && (
+        <VideoPlayer
+          onEnd={() => {
+            setFadeIn(true);
+            setShowVideo(false);
+          }}
+        />
+      )}
+      <div
+        className={`root ${showVideo ? 'hide' : ''} ${fadeIn ? 'show' : ''}`}
+      >
+        <Font />
+        <ProgressBar />
         <div className="header-container">
           <div>
             <p className="title">
@@ -29,7 +39,12 @@ function App() {
             </p>
             <p className="subtitle">- Culture’s Dominatrix -</p>
           </div>
-          <button onClick={() => setShowVideo(true)}>
+          <button
+            onClick={() => {
+              setFadeIn(false);
+              setShowVideo(true);
+            }}
+          >
             <img className="header-logo" src={logo} alt="Logo" />
           </button>
           <p className="intro">
