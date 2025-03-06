@@ -4,7 +4,6 @@ import logo from './assets/LionLogo.png';
 import poster2 from './assets/Sheep.png';
 import flag from './assets/SYMFlag.png';
 import poster1 from './assets/TekCharge.png';
-import { Font } from './Font';
 import ProgressBar from './ProgressBar';
 import { VideoPlayer } from './VideoPlayer';
 
@@ -29,7 +28,6 @@ function App() {
       {showVideo && <VideoPlayer onEnd={() => closeVideo()} />}
       <div className={`root ${showVideo ? 'no-scroll' : ''}`}>
         <ProgressBar />
-        {/* <Font /> */}
         <div className="header-container">
           <div>
             <p className="title">

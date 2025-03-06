@@ -169,11 +169,22 @@ p {
   letter-spacing: 3px;
 }
 
+@media (max-width: 767px) {
+  .title {
+    font-size: 5.5vw;
+  }
+}
+
+.first-letter {
+  letter-spacing: -1px;
+  margin-right: 4px;
+}
+
 .subtitle {
   text-align: center;
   font-size: calc(12px + 1.25vw);
   font-family: 'GT';
-  letter-spacing: 6px;
+  letter-spacing: 4px;
 }
 
 @keyframes shrink {
@@ -392,7 +403,12 @@ mark {
   opacity: 0.9;
 }
 
-/* TO DELETE */
+button {
+  background-color: none;
+  border: none;
+  outline: none;
+  background: none;
+}
 
 .font-test {
   position: fixed;
@@ -403,13 +419,4 @@ mark {
   gap: 12px;
   align-items: center;
   justify-content: center;
-}
-
-button {
-  background-color: none;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background: none;
-  font-size: 24px;
 }
