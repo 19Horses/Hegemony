@@ -9,13 +9,20 @@
 }
 
 @font-face {
-  font-family: 'Daft';
-  src: local('Daft'), url('./fonts/daft.ttf');
+  font-family: 'Pantasia';
+  src: local('Pantasia'), url('./fonts/Pantasia-Regular.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'Pantasia';
-  src: local('Pantasia'), url('./fonts/Pantasia-Regular.otf') format('opentype');
+  font-family: 'Chapter';
+  src: local('Chapter'), url('./fonts/Chapter.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chapter';
+  src: local('Chapter'), url('./fonts/ChapterItalic.ttf');
+  font-style: italic;
 }
 
 @font-face {
@@ -129,14 +136,14 @@ p {
   justify-self: baseline;
   font-size: calc(16px + 1vw);
   margin-bottom: 16px;
-  font-family: 'Daft';
+  font-family: 'Chapter';
   opacity: 0;
 }
 
 .poem {
   margin: 64px 0px;
   text-align: center;
-  font-family: 'Daft';
+  font-family: 'Chapter';
   font-size: calc(16px + 1vw);
   opacity: 0;
 }
@@ -241,7 +248,7 @@ p {
   margin: 64px 0px 96px 0px;
   width: 95%;
   text-align: center;
-  font-family: 'Daft';
+  font-family: 'GTBold';
   opacity: 0;
 }
 
@@ -266,7 +273,7 @@ footer {
 
 .footer-note {
   font-size: calc(16px + 1vw);
-  font-family: 'Daft';
+  font-family: 'Chapter';
 }
 
 .flag-container {
@@ -323,7 +330,7 @@ footer {
   text-align: center;
   padding: none;
   width: 40%;
-  font-family: 'Daft';
+  font-family: 'Chapter';
 }
 
 @media (max-width: 767px) {
@@ -341,7 +348,7 @@ footer {
   text-align: justify;
   width: 95%;
   margin-bottom: 32px;
-  font-family: 'Daft';
+  font-family: 'Chapter';
   opacity: 0;
 }
 
@@ -351,6 +358,10 @@ footer {
 
 .description.first {
   margin-top: 128px;
+}
+
+.demands {
+  font-family: 'GTBold';
 }
 
 mark {
