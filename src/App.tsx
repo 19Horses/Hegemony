@@ -128,7 +128,7 @@ function App() {
           people with everyting, yet nuttn, yearned for this. The Mammon,
           contorted, screamed looking down at us. Anda ting dey ridiculed, our
           essence, became the object of dere deformed desires. And so, the
-          battle commences
+          battle commences.
         </p>
         <p className="description">
           But dey deny this with semantics. Dey distract us wida wails of
@@ -147,7 +147,7 @@ function App() {
         </p>
         <p className="subheader">
           <i>
-            <b>{upperCase('awaiting text')}</b>
+            <b>{upperCase('TO FIGHT FORDA DUST OF YOUR LAND IS PUREST. ')}</b>
           </i>
         </p>
         <p className="description">
@@ -159,7 +159,9 @@ function App() {
           rules and decrees:
         </p>
         <p className="description centered">
-          can’t pay, we’ll take you away. Alright for the other lot to stay.
+          <i>
+            can’t pay, we’ll take you away. Alright for the other lot to stay.
+          </i>
         </p>
         <p className="description">
           Gentrification ain’t so sleighta ‘and, displacing Landuners of our
@@ -263,7 +265,7 @@ function App() {
         </p>
         <p className="subheader">
           <i>
-            <b>{upperCase('awaiting text')}</b>
+            <b>{upperCase('STEP WID LOVE N’ MILITANCE - OR PERISH.')}</b>
           </i>
         </p>
         <p className="description">
@@ -327,8 +329,10 @@ function App() {
         </p>
         <p className="description centered">
           <b>
-            <span className="list-number">1.</span> DERE’S ONLY ONE WAR WORTH
-            FIGHTING. CLASS WAR
+            <span className="list-number">1.</span>{' '}
+            <span className="demands">
+              DERE’S ONLY ONE WAR WORTH FIGHTING. CLASS WAR
+            </span>
           </b>
           <br />
           No gentrifier or liberal can ever try belittle the class war. Your
@@ -340,8 +344,11 @@ function App() {
         </p>
         <p className="description centered">
           <b>
-            <span className="list-number">2.</span> WE DEMANDA END OFDA THEFT OF
-            OUR OMES OUR CULTURE AND OUR LABOUR. WE HAVTA PROTECT OUR ESSENCE.
+            <span className="list-number">2.</span>{' '}
+            <span className="demands">
+              WE DEMANDA END OFDA THEFT OF OUR OMES OUR CULTURE AND OUR LABOUR.
+              WE HAVTA PROTECT OUR ESSENCE.
+            </span>
           </b>
           <br />
           Mandem/ gyaldem/ dey-dem dem, we havta understand Landun is London.
@@ -359,8 +366,10 @@ function App() {
         </p>
         <p className="description centered">
           <b>
-            <span className="list-number">3.</span> WE DEMAND SECURE AOUSING,
-            JOBS, HEALTHCARE AND EDUCATION.
+            <span className="list-number">3.</span>{' '}
+            <span className="demands">
+              WE DEMAND SECURE AOUSING, JOBS, HEALTHCARE AND EDUCATION.
+            </span>
           </b>
           <br />
           The crumbling of our welfare state is disgusting. It’s the only thing
@@ -369,7 +378,8 @@ function App() {
         </p>
         <p className="description centered">
           <b>
-            <span className="list-number">4.</span> SENDA VULTURES DUBAI.
+            <span className="list-number">4.</span>{' '}
+            <span className="demands">SENDA VULTURES DUBAI.</span>
           </b>
           <br />
           If dem developer man love skyscrapers – dere’s ol desert for you to
@@ -377,8 +387,10 @@ function App() {
         </p>
         <p className="description centered">
           <b>
-            <span className="list-number">5.</span> LANDLORDS, TFL TICKET MAN,
-            BALIFFS… PUSSES.
+            <span className="list-number">5.</span>{' '}
+            <span className="demands">
+              LANDLORDS, TFL TICKET MAN, BALIFFS… PUSSES.
+            </span>
           </b>
           <br />
           Absolute cunts. Bottom breed.
@@ -386,43 +398,53 @@ function App() {
         </p>
         <p className="description centered">
           <b>
-            <span className="list-number">6.</span> TAXDA RICH..
+            <span className="list-number">6.</span>{' '}
+            <span className="demands"></span> TAXDA RICH..
           </b>
           <br />
-          Nuff said really.
+          Gidus our P’s back. We aint asking. We’re taking. Nuff said really.
           <br />
         </p>
         <p className="description centered">
           <b>
-            <span className="list-number">7.</span> WE DEMAND SPACE TO CREATE
-            AND ENJOY.
+            <span className="list-number">7.</span>{' '}
+            <span className="demands">
+              WE DEMAND SPACE TO CREATE AND ENJOY.
+            </span>
           </b>
           <br />
-          We want to go out out and not ave our enjoyment mercilessly feasted
-          upon. We want to go out out and not spend score-five entry, £30 a
-          round forda dance to khalas at 2am and spend more time travelling
-          backa gaff dan we do dancing.
+          We wana go out-out and not ave our enjoyment mercilessly feasted upon.
+          We wana go out-out and not spend score-five entry, £30 a round forda
+          dance to finish at 2 and spend more time travelling backa gaff dan we
+          do dancing. Additionally, we demand space and opportunities to create
+          art. Dere’s only 7% of us man in the arts. Dat means in creative
+          spaces the only Working-Class people arda cleaners or security.
           <br />
         </p>
         <p className="description centered">
           <b>
-            <span className="list-number">8.</span> MISS ME WIDYA CONMUNITY.
+            <span className="list-number">8.</span>{' '}
+            <span className="demands">MISS ME WIDYA CONMUNITY.</span>
           </b>
           <br />
-          Everyone’s favourite word. Means absolutely fuck all.
+          Community. Everyone’s favourite word. Means absolutely fuck all. As if
+          your community aint jus coked up posh boys. Aving a butchers at you
+          Jumbi.
           <br />
         </p>
         <p className="description centered">
           <b>
-            <span className="list-number">9.</span> WE’LL RAISE OUR FISTS BEFORE
-            WE RAISE OUR DRINKS.
+            <span className="list-number">9.</span>{' '}
+            <span className="demands">
+              WE’LL RAISE OUR FISTS BEFORE WE RAISE OUR DRINKS.
+            </span>
           </b>
           <br />
           We’re a defiant, victorious people. Dem man will pour libations. Us
           man will pop bottles.
           <br />
         </p>
-        <div className="poster-container thin">
+        <div className="poster-container mt">
           <p className="subheader">
             <b>{upperCase('...Then We Want The Earth')}</b>
           </p>

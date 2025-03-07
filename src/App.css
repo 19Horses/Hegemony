@@ -4,33 +4,20 @@
 }
 
 @font-face {
-  font-family: 'Mono';
-  src: local('Mono'), url('./fonts/mono.ttf');
+  font-family: 'Chapter';
+  src: local('Chapter'), url('./fonts/Chapter.otf') format('opentype');
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Daft';
-  src: local('Daft'), url('./fonts/daft.ttf');
-}
-
-@font-face {
-  font-family: 'Pantasia';
-  src: local('Pantasia'), url('./fonts/Pantasia-Regular.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'GT';
-  src: local('GT'), url('./fonts/GT.ttf');
+  font-family: 'Chapter';
+  src: local('Chapter'), url('./fonts/ChapterItalic.ttf');
+  font-style: italic;
 }
 
 @font-face {
   font-family: 'GTBold';
   src: local('GTBold'), url('./fonts/GTBold.ttf');
-}
-
-@font-face {
-  font-family: 'Haas';
-  src: local('Haas'), url('./fonts/Haas.ttf');
 }
 
 .root {
@@ -65,13 +52,13 @@ body::-webkit-scrollbar {
   right: 0;
   width: 15px;
   height: 100vh;
-  background: linear-gradient(180deg, rgb(234, 51, 35) 50%, #000000 50%);
+  background: linear-gradient(180deg, rgb(255, 30, 20) 50%, #000000 50%);
   z-index: 5;
 }
 
 .progressBar.left {
   left: 0;
-  background: linear-gradient(180deg, #000000 50%, rgb(234, 51, 35) 50%);
+  background: linear-gradient(180deg, #000000 50%, rgb(255, 30, 20) 50%);
 }
 
 @media (max-width: 500px) {
@@ -129,14 +116,14 @@ p {
   justify-self: baseline;
   font-size: calc(16px + 1vw);
   margin-bottom: 16px;
-  font-family: 'Daft';
+  font-family: 'Chapter';
   opacity: 0;
 }
 
 .poem {
   margin: 64px 0px;
   text-align: center;
-  font-family: 'Daft';
+  font-family: 'Chapter';
   font-size: calc(16px + 1vw);
   opacity: 0;
 }
@@ -241,7 +228,7 @@ p {
   margin: 64px 0px 96px 0px;
   width: 95%;
   text-align: center;
-  font-family: 'Daft';
+  font-family: 'GTBold';
   opacity: 0;
 }
 
@@ -266,7 +253,7 @@ footer {
 
 .footer-note {
   font-size: calc(16px + 1vw);
-  font-family: 'Daft';
+  font-family: 'Chapter';
 }
 
 .flag-container {
@@ -301,8 +288,7 @@ footer {
   box-sizing: border-box;
 }
 
-.poster-container.thin {
-  width: 95%;
+.poster-container.mt {
   margin-top: 32px;
 }
 
@@ -324,7 +310,7 @@ footer {
   text-align: center;
   padding: none;
   width: 40%;
-  font-family: 'Daft';
+  font-family: 'Chapter';
 }
 
 @media (max-width: 767px) {
@@ -342,7 +328,7 @@ footer {
   text-align: justify;
   width: 95%;
   margin-bottom: 32px;
-  font-family: 'Daft';
+  font-family: 'Chapter';
   opacity: 0;
 }
 
@@ -352,6 +338,10 @@ footer {
 
 .description.first {
   margin-top: 128px;
+}
+
+.demands {
+  font-family: 'GTBold';
 }
 
 mark {
