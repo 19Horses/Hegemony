@@ -41,7 +41,7 @@ export const VideoPlayer = ({ onEnd }: { onEnd: () => void }) => {
         url={URL}
         controls={false}
         playing={isReady}
-        playsinline
+        playsinline={true}
         style={{
           zIndex: 99,
         }}

@@ -422,7 +422,7 @@ function App() {
           man will pop bottles.
           <br />
         </p>
-        <div className="poster-container thin">
+        <div className="poster-container mt">
           <p className="subheader">
             <b>{upperCase('...Then We Want The Earth')}</b>
           </p>

@@ -301,8 +301,7 @@ footer {
   box-sizing: border-box;
 }
 
-.poster-container.thin {
-  width: 95%;
+.poster-container.mt {
   margin-top: 32px;
 }
 
