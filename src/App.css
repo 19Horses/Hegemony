@@ -262,7 +262,7 @@ footer {
 
 .footer-note {
   font-size: calc(16px + 1vw);
-  font-family: 'Chapter';
+  font-family: 'GTBold';
 }
 
 .flag-container {
@@ -320,6 +320,7 @@ footer {
   padding: none;
   width: 40%;
   font-family: 'Chapter';
+  opacity: 0;
 }
 
 @media (max-width: 767px) {
