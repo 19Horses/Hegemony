@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player/lazy';
+import { isMobile } from 'react-device-detect';
 
 const URL = 'https://vimeo.com/1062743109';
 
@@ -34,12 +35,11 @@ export const VideoPlayer = ({ onEnd }: { onEnd: () => void }) => {
         isScrolled ? 'scrolled' : ''
       }`}
     >
-      <button className="close" onClick={() => close()}></button>
+      {!isMobile && <button className="close" onClick={() => close()}></button>}
 
       <ReactPlayer
-        onClickPreview={() => close()}
         url={URL}
-        controls={false}
+        controls={isMobile}
         playing={isReady}
         playsinline={true}
         style={{
