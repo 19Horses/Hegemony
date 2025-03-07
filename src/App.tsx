@@ -139,8 +139,8 @@ function App() {
           truth. Dey hava conscious absence in consciousness. Dere teeth glint,
           but smoke covers dere eyes. We paid for those railings, but it’s us
           burning. We breathed in brutality. Asbestos tri clog our spirit. But
-          bitter, dey ponder: “how can sulphur smell so sweet when their spirit
-          ignites?”
+          bitter, dey ponder:{' '}
+          <i>“how can sulphur smell so sweet when their spirit ignites?”</i>
         </p>
         <p className="description centered">
           Disda battle against da Mammon and dere legion of pagans.
@@ -152,11 +152,11 @@ function App() {
         </p>
         <p className="description">
           We can’t serve both Landun and Mammon. Both our postcode and
-          Rightmove. We’re losing our aouses, our people, our future. We’re
-          being replaced by Bucket-List Londoners. Taking up our space, dey stay
-          ta tick off the “London experience”, so dey can move back to the
-          shires when the deposit’s ready and die without regrets. Da Mammon
-          rules and decrees:
+          Rightmove. We’re losing our <i>aouses</i>, our <i>people</i>, our
+          <i>future</i>. We’re being replaced by <i>Bucket-List Londoners</i>.
+          Taking up our space, dey stay ta tick off the “London experience”, so
+          dey can move back to the shires when the deposit’s ready and die
+          without regrets. Da Mammon rules and decrees:
         </p>
         <p className="description centered">
           <i>
@@ -212,13 +212,13 @@ function App() {
           <p className="poster-caption">You 1/4 zip cunts are next.</p>
         </div>
         <p className="description">
-          The pagans, Chase Da Bag Jezzies, have ‘ored us out. As London’s
-          become a gig economy, our essence under even greater threat, de Mammon
-          demands we become its shift workers. Scabs breaking picket lines. De
-          pagans ave dashed us to the cheapest bidder. Landun culture is nowa
-          commodity. Its dictated to us from above. Real culture, our true
-          essence, should be used to challenge not conform. The only thing
-          London culture challenges now, is ow low can we go?
+          The <i>pagans</i>, <i>Chase Da Bag Jezzies</i>, have ‘ored us out. As
+          London’s become a gig economy, our essence under even greater threat,
+          de Mammon demands we become its shift workers. Scabs breaking picket
+          lines. De pagans ave dashed us to the cheapest bidder. Landun culture
+          is nowa commodity. Its dictated to us from above. Real culture,{' '}
+          <i>our true essence</i>, should be used to challenge not conform. The
+          only thing London culture challenges now, is ow low can we go?
         </p>
         <p className="description">
           True culture is like fungus. It grows in dark, dank places not on the
