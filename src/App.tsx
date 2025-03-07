@@ -150,7 +150,7 @@ function App() {
           <i>“how can sulphur smell so sweet when their spirit ignites?”</i>
         </p>
         <p className="description centered">
-          Disda battle against da Mammon and dere legion of pagans.
+          Disda almighty battle against de Mammon and dere legions of pagans.
         </p>
         <p className="subheader">
           <i>
@@ -159,7 +159,7 @@ function App() {
         </p>
         <p className="description">
           We can’t serve both Landun and Mammon. Both our postcode and
-          Rightmove. We’re losing our <i>aouses</i>, our <i>people</i>, our
+          Rightmove. We’re losing our <i>aouses</i>, our <i>people</i>, our{' '}
           <i>future</i>. We’re being replaced by <i>Bucket-List Londoners</i>.
           Taking up our space, dey stay ta tick off the “London experience”, so
           dey can move back to the shires when the deposit’s ready and die
@@ -207,7 +207,7 @@ function App() {
         </p>
         <p className="subheader">
           <i>
-            <b>{upperCase('Shouldn’t bea crime to be poor in London')}</b>
+            <b>{upperCase('Shouldn’t bea crime ta be poor in London.')}</b>
           </i>
         </p>
         <div className="poster-container">
@@ -236,25 +236,16 @@ function App() {
           billboards sponsored by Spotify. It’s ard-to-find not igh street.
         </p>
         <p className="description">
-          Ask yourself ow we can go from form 696 to playing at the Brits?
-          That’s not progress that’s profit. Da London &quot;cultural
-          architects&quot; with paid in partnership posts and playing gigs at
-          Soho Aouse, wearing new era caps and air forces, saying ‘hella,”
-          making out they’re the “heartbeat” of London. They might be the
-          &quot;heartbeat&quot;, but they’re nota ealthy ‘eart, they’re fatty &
-          flatlining. They’re only the &quot;heartbeat&quot; because there’s no
-          alternative. And that’s what power wants.
+          Ask yourself ow we can go from form 696 to playing at the Brits? Dat’s
+          not progress dat’s profit. Da London &quot;cultural architects&quot;
+          with paid in partnership posts and playing gigs at Soho Aouse, wearing
+          new era caps and air forces, saying ‘hella,” making out they’re the
+          “heartbeat” of London. They might be the &quot;heartbeat&quot;, but
+          they’re nota ealthy ‘eart, they’re fatty & flatlining. They’re only
+          the &quot;heartbeat&quot; because there’s no alternative. And that’s
+          what power wants.
         </p>
-        <p className="description">
-          Ask yourself ow we can go from form 696 to the playing at the Brits?
-          That&apos;s not progress that&apos;s profit. I seda London
-          &quot;cultural architects&quot; with paid in partnership posts and
-          playing gigs at Soho House, making out they&apos;re the heartbeat of
-          London. They might be the &quot;heartbeat&quot;, but they&apos;re nota
-          healthy ‘eart, they&apos;re fatty & flatlining. They&apos;re only the
-          &quot;heartbeat&quot; because there&apos;s no alternative. And
-          that&apos;s what power wants.
-        </p>
+
         <p className="description">
           Dey pedal a commodified, co-opted mimic of our essence. One dats safe
           and shat out of anyting subversive or original or authentic. One that
@@ -340,7 +331,7 @@ function App() {
           <b>
             <span className="list-number">1.</span>{' '}
             <span className="demands">
-              DERE’S ONLY ONE WAR WORTH FIGHTING. <i>CLASS WAR</i>
+              DERE’S ONLY ONE WAR WORTH FIGHTING. <i>CLASS WAR.</i>
             </span>
           </b>
           <br />
@@ -390,7 +381,7 @@ function App() {
           </b>
           <br />
           If dem developer man love skyscrapers so much, dere&apos;s ol desert
-          for dem to wreck. leave Landun alone. Your kettle&apos;s safer
+          for dem to wreck. Leave Landun alone. Your kettle&apos;s safer
           overdere anyway.
         </p>
         <p className="description centered">
