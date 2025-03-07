@@ -318,7 +318,7 @@ function App() {
         <div className="full-page">
           <p className="full-page-text">
             <i>
-              <b>Lun(DUN). But it don’t havta be.</b>
+              <b>LUN(DUN). BUT IT DON'T AVTA BE.</b>
             </i>
           </p>
         </div>
