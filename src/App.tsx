@@ -399,7 +399,7 @@ function App() {
         <p className="description centered">
           <b>
             <span className="list-number">6.</span>{' '}
-            <span className="demands"></span> TAXDA RICH..
+            <span className="demands">TAXDA RICH.</span>
           </b>
           <br />
           Gidus our P’s back. We aint asking. We’re taking. Nuff said really.
