@@ -318,7 +318,7 @@ function App() {
         <div className="full-page">
           <p className="full-page-text">
             <i>
-              <b>LUN(DUN). BUT IT DON'T AVTA BE.</b>
+              <b>LUN(DUN). BUT IT DON&apos;T AVTA BE.</b>
             </i>
           </p>
         </div>
@@ -389,8 +389,9 @@ function App() {
             </span>
           </b>
           <br />
-          If dem developer man love skyscrapers so much, dere's ol desert for
-          dem to wreck. leave Landun alone. Your kettle's safer overdere anyway.
+          If dem developer man love skyscrapers so much, dere&apos;s ol desert
+          for dem to wreck. leave Landun alone. Your kettle&apos;s safer
+          overdere anyway.
         </p>
         <p className="description centered">
           <b>
